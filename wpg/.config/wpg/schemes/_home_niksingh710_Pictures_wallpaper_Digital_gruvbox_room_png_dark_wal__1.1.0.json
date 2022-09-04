@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/gruvbox_room.png",
+    "alpha": "80",
+    "special": {
+        "background": "#37210f",
+        "foreground": "#ddc7a9",
+        "cursor": "#ddc7a9"
+    },
+    "colors": {
+        "color0": "#37210f",
+        "color1": "#C1792A",
+        "color2": "#9C7846",
+        "color3": "#B6893B",
+        "color4": "#9F885C",
+        "color5": "#AD8B56",
+        "color6": "#B79667",
+        "color7": "#ddc7a9",
+        "color8": "#9a8b76",
+        "color9": "#C1792A",
+        "color10": "#9C7846",
+        "color11": "#B6893B",
+        "color12": "#9F885C",
+        "color13": "#AD8B56",
+        "color14": "#B79667",
+        "color15": "#ddc7a9"
+    }
+}

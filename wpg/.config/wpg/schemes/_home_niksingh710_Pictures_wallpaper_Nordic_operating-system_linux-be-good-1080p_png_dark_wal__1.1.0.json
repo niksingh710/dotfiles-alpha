@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/operating-system/linux-be-good-1080p.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0f1219",
+        "foreground": "#e2e9eb",
+        "cursor": "#e2e9eb"
+    },
+    "colors": {
+        "color0": "#0f1219",
+        "color1": "#919BA0",
+        "color2": "#A8B1B5",
+        "color3": "#B3BDC2",
+        "color4": "#BAC5C8",
+        "color5": "#C9D1D5",
+        "color6": "#D1DEE1",
+        "color7": "#e2e9eb",
+        "color8": "#9ea3a4",
+        "color9": "#919BA0",
+        "color10": "#A8B1B5",
+        "color11": "#B3BDC2",
+        "color12": "#BAC5C8",
+        "color13": "#C9D1D5",
+        "color14": "#D1DEE1",
+        "color15": "#e2e9eb"
+    }
+}

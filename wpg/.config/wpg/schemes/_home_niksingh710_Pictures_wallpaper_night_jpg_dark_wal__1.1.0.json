@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/night.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0c0a0c",
+        "foreground": "#d6bdb1",
+        "cursor": "#d6bdb1"
+    },
+    "colors": {
+        "color0": "#0c0a0c",
+        "color1": "#563042",
+        "color2": "#6E3647",
+        "color3": "#6A4C4C",
+        "color4": "#883D4E",
+        "color5": "#A45F5A",
+        "color6": "#C07B67",
+        "color7": "#d6bdb1",
+        "color8": "#95847b",
+        "color9": "#563042",
+        "color10": "#6E3647",
+        "color11": "#6A4C4C",
+        "color12": "#883D4E",
+        "color13": "#A45F5A",
+        "color14": "#C07B67",
+        "color15": "#d6bdb1"
+    }
+}

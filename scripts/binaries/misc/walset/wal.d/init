@@ -1,0 +1,6 @@
+#!/bin/bash
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+[ -f $LOC/river ] && $LOC/river &
+[ -f $LOC/wbar ] && $LOC/wbar &
+[ -f $LOC/tg ] && $LOC/tg &
+[ -f $LOC/dis ] && $LOC/dis &

@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# exiting if any instance of setting wal is running. (prevent cpu hogs if spammed reload key)
+pgrep -x wal &>/dev/null && exit
+pgrep -x wpg &>/dev/null && exit
+pgrep -x wbar &>/dev/null && exit
+
+# This script will set system wallpaper and update the colors of other applications using wal and wpgtk.
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+WALLPATH="${WALLPATH:-"$HOME/Pictures/wallpaper"}"
+
+get-wallpaper(){
+  IFS=$'\n'$'\r'
+  arr=($(find $WALLPATH/ -type f \( -iname \*.jpg -o -iname \*.png -o -iname \*.jpeg \)))
+  len=${#arr[@]}
+  imgpath=${arr[$(echo $(( $RANDOM % $len )))]}
+
+  if [ $# -eq 1 ]; then
+    if file "$1" | grep -qE 'image|bitmap';then
+      imgpath="`realpath "$1"`"
+    fi
+  fi
+  echo $imgpath
+}
+wallpaper=$(get-wallpaper "$@")
+
+echo "$wallpaper" > /tmp/currwal
+
+hash wbg 2>/dev/null || exit
+pgrep -x wbg &>/dev/null && killall -q wbg 
+wbg "$wallpaper" &>/dev/null &
+
+hash set-pywal 2>/dev/null && set-pywal
+hash gen-lock 2>/dev/null && gen-lock

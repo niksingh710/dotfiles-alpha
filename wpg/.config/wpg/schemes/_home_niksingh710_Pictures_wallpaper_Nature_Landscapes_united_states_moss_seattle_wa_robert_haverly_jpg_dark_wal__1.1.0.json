@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/united_states/moss_seattle_wa_robert_haverly.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#121112",
+        "foreground": "#c8c3a6",
+        "cursor": "#c8c3a6"
+    },
+    "colors": {
+        "color0": "#121112",
+        "color1": "#484A37",
+        "color2": "#646638",
+        "color3": "#443D44",
+        "color4": "#504F49",
+        "color5": "#68665B",
+        "color6": "#807866",
+        "color7": "#c8c3a6",
+        "color8": "#8c8874",
+        "color9": "#484A37",
+        "color10": "#646638",
+        "color11": "#443D44",
+        "color12": "#504F49",
+        "color13": "#68665B",
+        "color14": "#807866",
+        "color15": "#c8c3a6"
+    }
+}

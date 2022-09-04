@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/italy/strudelkopf_toblach_suditrol_daniel_sessler.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0c1317",
+        "foreground": "#dfd7d1",
+        "cursor": "#dfd7d1"
+    },
+    "colors": {
+        "color0": "#0c1317",
+        "color1": "#396A83",
+        "color2": "#51768B",
+        "color3": "#687B88",
+        "color4": "#6D8898",
+        "color5": "#718EA0",
+        "color6": "#99A4A9",
+        "color7": "#dfd7d1",
+        "color8": "#9c9692",
+        "color9": "#396A83",
+        "color10": "#51768B",
+        "color11": "#687B88",
+        "color12": "#6D8898",
+        "color13": "#718EA0",
+        "color14": "#99A4A9",
+        "color15": "#dfd7d1"
+    }
+}

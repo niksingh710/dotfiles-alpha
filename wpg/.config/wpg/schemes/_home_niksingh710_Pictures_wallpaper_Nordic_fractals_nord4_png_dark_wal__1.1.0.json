@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/fractals/nord4.png",
+    "alpha": "80",
+    "special": {
+        "background": "#191c24",
+        "foreground": "#afc6d1",
+        "cursor": "#afc6d1"
+    },
+    "colors": {
+        "color0": "#191c24",
+        "color1": "#5F8196",
+        "color2": "#63889B",
+        "color3": "#6E98AB",
+        "color4": "#709CAD",
+        "color5": "#719FB1",
+        "color6": "#729FB3",
+        "color7": "#afc6d1",
+        "color8": "#7a8a92",
+        "color9": "#5F8196",
+        "color10": "#63889B",
+        "color11": "#6E98AB",
+        "color12": "#709CAD",
+        "color13": "#719FB1",
+        "color14": "#729FB3",
+        "color15": "#afc6d1"
+    }
+}

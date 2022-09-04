@@ -1,0 +1,6 @@
+fcd-bash(){
+    fcd
+}
+
+
+bind -x '"\C-g":"fcd-bash"'

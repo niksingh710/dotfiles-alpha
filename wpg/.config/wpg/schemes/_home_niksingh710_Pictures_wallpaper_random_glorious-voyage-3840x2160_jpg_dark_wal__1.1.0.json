@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/glorious-voyage-3840x2160.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#091829",
+        "foreground": "#ccbece",
+        "cursor": "#ccbece"
+    },
+    "colors": {
+        "color0": "#091829",
+        "color1": "#016D8F",
+        "color2": "#116C96",
+        "color3": "#576FA5",
+        "color4": "#AE7590",
+        "color5": "#0D8AAD",
+        "color6": "#5989B5",
+        "color7": "#ccbece",
+        "color8": "#8e8590",
+        "color9": "#016D8F",
+        "color10": "#116C96",
+        "color11": "#576FA5",
+        "color12": "#AE7590",
+        "color13": "#0D8AAD",
+        "color14": "#5989B5",
+        "color15": "#ccbece"
+    }
+}

@@ -1,0 +1,25 @@
+# I update the PATH Variable for the system
+
+add_path(){
+    ARR=("$@")
+    for i in "${ARR[@]}"
+      do
+       if [ -d $i ] && [[ ":$PATH:" != *":$i:"* ]]; then
+        export PATH="${PATH:+"$PATH:"}$i"
+       fi
+      done
+}
+PATHLIST=(
+   "$HOME/.local/bin"
+   "$HOME/Personal/bin"
+   "$HOME/Android/Sdk/platform-tools"
+   "$HOME/.cargo/bin"
+   "$HOME/.npm/bin"
+   "$HOME/go/bin"
+   "$HOME/flutter/bin"
+   "$HOME/binaries/bin"
+   "$HOME/.fnm"
+   "$PNPM_HOME"
+)
+add_path ${PATHLIST[@]}
+unset -f add_path

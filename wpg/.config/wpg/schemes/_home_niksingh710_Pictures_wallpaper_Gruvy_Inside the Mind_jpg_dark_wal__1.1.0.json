@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Gruvy/Inside the Mind.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0c0d20",
+        "foreground": "#cfddeb",
+        "cursor": "#cfddeb"
+    },
+    "colors": {
+        "color0": "#0c0d20",
+        "color1": "#5C52A9",
+        "color2": "#966CB4",
+        "color3": "#6F95D1",
+        "color4": "#BA94B2",
+        "color5": "#A4A2DB",
+        "color6": "#CEAFD7",
+        "color7": "#cfddeb",
+        "color8": "#909aa4",
+        "color9": "#5C52A9",
+        "color10": "#966CB4",
+        "color11": "#6F95D1",
+        "color12": "#BA94B2",
+        "color13": "#A4A2DB",
+        "color14": "#CEAFD7",
+        "color15": "#cfddeb"
+    }
+}

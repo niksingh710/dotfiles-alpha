@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/Simplistic/wild.png",
+    "alpha": "80",
+    "special": {
+        "background": "#1a1c23",
+        "foreground": "#c9d4dd",
+        "cursor": "#c9d4dd"
+    },
+    "colors": {
+        "color0": "#1a1c23",
+        "color1": "#78A2B6",
+        "color2": "#749DC1",
+        "color3": "#78A4C1",
+        "color4": "#869EB0",
+        "color5": "#82A4B3",
+        "color6": "#85A7C4",
+        "color7": "#c9d4dd",
+        "color8": "#8c949a",
+        "color9": "#78A2B6",
+        "color10": "#749DC1",
+        "color11": "#78A4C1",
+        "color12": "#869EB0",
+        "color13": "#82A4B3",
+        "color14": "#85A7C4",
+        "color15": "#c9d4dd"
+    }
+}

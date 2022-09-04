@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/abstract-circles-wallpaper-for-2880x1800-60-585.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#3e1b31",
+        "foreground": "#f4dbaa",
+        "cursor": "#f4dbaa"
+    },
+    "colors": {
+        "color0": "#3e1b31",
+        "color1": "#DE6155",
+        "color2": "#B3936A",
+        "color3": "#EBA05A",
+        "color4": "#F1B467",
+        "color5": "#FCC55A",
+        "color6": "#DEC178",
+        "color7": "#f4dbaa",
+        "color8": "#aa9976",
+        "color9": "#DE6155",
+        "color10": "#B3936A",
+        "color11": "#EBA05A",
+        "color12": "#F1B467",
+        "color13": "#FCC55A",
+        "color14": "#DEC178",
+        "color15": "#f4dbaa"
+    }
+}

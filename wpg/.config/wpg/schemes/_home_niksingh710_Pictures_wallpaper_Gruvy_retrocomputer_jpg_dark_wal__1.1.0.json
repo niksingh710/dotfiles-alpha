@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Gruvy/retrocomputer.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#070708",
+        "foreground": "#a0a3c4",
+        "cursor": "#a0a3c4"
+    },
+    "colors": {
+        "color0": "#070708",
+        "color1": "#244F5E",
+        "color2": "#5A4B61",
+        "color3": "#BF5135",
+        "color4": "#9D3553",
+        "color5": "#9C525E",
+        "color6": "#2A6C9A",
+        "color7": "#a0a3c4",
+        "color8": "#707289",
+        "color9": "#244F5E",
+        "color10": "#5A4B61",
+        "color11": "#BF5135",
+        "color12": "#9D3553",
+        "color13": "#9C525E",
+        "color14": "#2A6C9A",
+        "color15": "#a0a3c4"
+    }
+}

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+hash fm6000 2>/dev/null && fm6000 -r -c random || echo "No fm6000 found"

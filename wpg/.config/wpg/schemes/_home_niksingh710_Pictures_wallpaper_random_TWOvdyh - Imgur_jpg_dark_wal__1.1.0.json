@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/TWOvdyh - Imgur.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#1e1f2e",
+        "foreground": "#dbd9ca",
+        "cursor": "#dbd9ca"
+    },
+    "colors": {
+        "color0": "#1e1f2e",
+        "color1": "#3B5585",
+        "color2": "#65698D",
+        "color3": "#90768A",
+        "color4": "#728AA2",
+        "color5": "#A99B97",
+        "color6": "#C5B39A",
+        "color7": "#dbd9ca",
+        "color8": "#99978d",
+        "color9": "#3B5585",
+        "color10": "#65698D",
+        "color11": "#90768A",
+        "color12": "#728AA2",
+        "color13": "#A99B97",
+        "color14": "#C5B39A",
+        "color15": "#dbd9ca"
+    }
+}

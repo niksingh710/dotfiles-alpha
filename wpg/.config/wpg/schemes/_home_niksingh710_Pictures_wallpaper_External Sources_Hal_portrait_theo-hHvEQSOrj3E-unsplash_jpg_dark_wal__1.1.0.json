@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/theo-hHvEQSOrj3E-unsplash.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0a0d0f",
+        "foreground": "#c5dcdd",
+        "cursor": "#c5dcdd"
+    },
+    "colors": {
+        "color0": "#0a0d0f",
+        "color1": "#566D6C",
+        "color2": "#903F0C",
+        "color3": "#A2510A",
+        "color4": "#698170",
+        "color5": "#669C9E",
+        "color6": "#52ACB2",
+        "color7": "#c5dcdd",
+        "color8": "#899a9a",
+        "color9": "#566D6C",
+        "color10": "#903F0C",
+        "color11": "#A2510A",
+        "color12": "#698170",
+        "color13": "#669C9E",
+        "color14": "#52ACB2",
+        "color15": "#c5dcdd"
+    }
+}

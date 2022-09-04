@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+wpg -nrs '/home/niksingh710/Pictures/wallpaper/External Sources/Hal/keyboards/RW-U80-A.1632.jpg' '/home/niksingh710/Pictures/wallpaper/External Sources/Hal/keyboards/RW-U80-A.1632.jpg'

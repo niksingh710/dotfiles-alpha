@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/mine/black-hole.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#021619",
+        "foreground": "#c7c8e4",
+        "cursor": "#c7c8e4"
+    },
+    "colors": {
+        "color0": "#021619",
+        "color1": "#266393",
+        "color2": "#5849A4",
+        "color3": "#595FA6",
+        "color4": "#AB5CCA",
+        "color5": "#2FA9C3",
+        "color6": "#60A0CD",
+        "color7": "#c7c8e4",
+        "color8": "#8b8c9f",
+        "color9": "#266393",
+        "color10": "#5849A4",
+        "color11": "#595FA6",
+        "color12": "#AB5CCA",
+        "color13": "#2FA9C3",
+        "color14": "#60A0CD",
+        "color15": "#c7c8e4"
+    }
+}

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+pgrep -x pacman && exit
+
+ARGS=()
+
+[ $# -eq 1 ] && ARGS+=(-n)
+
+command=$(checkupdates "${ARGS[@]}")
+state=$?
+updates="$command"
+[ $state = 0 ] && update=$(echo "$updates" | wc -l)  
+[ $state = 1 ] && update=-1
+[ $state = 2 ] && update=0 
+
+ret(){
+  tooltip=$(echo "$updates" | sed -z 's/\n/\\n/g')
+  [[ $tooltip == "\n" ]] && tooltip="No updates Available"
+  [[ $update == "-1" ]] && tooltip="Error Occured!!" update="Err"
+  cat << EOF
+{"text" : "$update","tooltip" : "$tooltip"}
+EOF
+}
+
+ret
+
+

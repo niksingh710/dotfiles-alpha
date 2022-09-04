@@ -1,0 +1,102 @@
+
+check_alias(){
+    if command -v $1 &>/dev/null;then
+        alias $2="$3"
+    fi
+}
+
+# General
+check_alias advcp cp 'advcp -gR'
+check_alias advmv mv 'advmv -g'
+check_alias wl-paste paste "wl-paste"
+check_alias wl-copy copy "wl-copy"
+check_alias figlet stime 'watch -n1 -t "date +%T | figlet"'
+check_alias unimatrix matrix 'unimatrix -f -l ocCgGkS -s 96'
+check_alias 0x0 transfer '0x0'
+check_alias fm6000 ffetch 'fm6000 -r -c random'
+check_alias radeontop radeontop "radeontop -Tc"
+check_alias speed-test speedtest "speed-test"
+check_alias glow mcat "glow"
+check_alias sl sl "sl -e"
+check_alias tldr eman "tldr"
+check_alias sensors wsensors 'watch -n1 -t "sensors"'
+check_alias wl-copy copy 'wl-copy'
+check_alias wl-paste paste 'wl-paste'
+check_alias update up 'update'
+check_alias sync cup 'sync'
+check_alias search-install search 'search-install'
+check_alias search-remove remove 'search-remove'
+
+# inetutils contain hostname in arch linux.
+check_alias hostname myip "hostname --ip-addresses"
+
+alias mygip="curl -s http://ipecho.net/plain; echo"
+alias myips='echo "local : `myip` \nglobal: `mygip`"'
+alias mkdir='mkdir -p'
+alias weather='curl "wttr.in/?0?M"'
+alias python="python3"
+alias pip="pip3"
+alias cpufreq='watch -n1 -t "grep \"^[c]pu MHz\" /proc/cpuinfo"'
+alias cpu-governer='cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
+alias cpu-turbo='[ $(cat /sys/devices/system/cpu/intel_pstate/no_turbo) = 0 ] && echo "Turbo: On" || echo "Turbo: Off"'
+alias gc='git clone $@'
+alias tb='nc termbin.com 9999'
+alias c='clear'
+alias e='$EDITOR'
+alias se='sudo $EDITOR'
+alias sudo='sudo '
+alias shutdown='sudo shutdown'
+alias reboot='sudo reboot'
+alias ..='cd ..'
+
+if hash mysql 2>/dev/null;then
+   alias mysql-start='sudo systemctl start mysql'
+   alias mysql-status='sudo systemctl status mysql'
+   alias mysql-stop='sudo systemctl stop mysql'
+   alias sql='mysql-start && mysql -u $USER -p && mysql-stop'
+   if hash mycli 2>/dev/null;then
+    alias sql='mysql-start && mycli -u $USER && mysql-stop'
+   fi
+fi
+
+if hash exa 2>/dev/null;then    
+  alias l='exa -lahF --color=auto --icons --sort=size --group-directories-first'
+  alias lss='exa -hF --color=auto --icons --sort=size --group-directories-first'
+  alias la='exa -ahF --color=auto --icons --sort=size --group-directories-first'
+  alias ls='exa -lhF --color=auto --icons --sort=size --group-directories-first'
+  alias lst='exa -lahFT --color=auto --icons --sort=size --group-directories-first'
+  alias lt='exa -aT --icons --group-directories-first --color=auto --sort=size'
+fi 
+
+if hash bat 2>/dev/null;then
+  alias cat='bat'
+  alias bcat='bat -p'
+  alias dcat='bat --decorations=always'
+  alias cpu-governer='ccat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor'
+  alias cpu-turbo='[ $(ccat /sys/devices/system/cpu/intel_pstate/no_turbo) = 0 ] && echo "Turbo: On" || echo "Turbo: Off"'
+  alias bcat='cat -l bash'
+fi
+if hash lvim 2>/dev/null;then
+	alias vim='lvim'
+	# alias nvim='lvim'
+	alias vi='lvim'
+fi
+# custom alias on check based
+[ -d "$HOME/Downloads/temp" ] && alias cdt="cd $HOME/Downloads/temp" || alias cdt='echo "No temp present."'
+[ -d "$HOME/.config/myconf" ] && alias cdc="cd $HOME/.config/myconf"
+[ -d "$HOME/binaries/bin" ] && alias cdb="cd $HOME/binaries/bin"
+[ -d "$HOME/work/temp" ] && alias cwt="cd $HOME/work/temp"
+
+[ -f "$HOME/.config/shell/alias" ] && alias ealias="vim $HOME/.config/shell/alias"
+[ -f "$HOME/.config/shell/variables" ] && alias evar="vim $HOME/.config/shell/variable"
+[ -f "$HOME/.config/shell/path" ] && alias epath="vim $HOME/.config/shell/path"
+[ -f "$HOME/.nikhilrc" ] && alias erc="vim $HOME/.nikhilrc"
+
+# quick access variable
+[ -d "/media/HDD" ] && alias cdh="cd /media/$USER/HDD/"
+
+
+
+unset -f check_alias
+
+

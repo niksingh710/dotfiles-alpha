@@ -1,0 +1,5 @@
+#!/bin/bash
+
+[ -f $HOME/binaries/waybar/waybar-arch-checkupdate ] || exit
+
+$HOME/binaries/waybar/waybar-arch-checkupdate -n > /tmp/waybarup

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/mine/6orB6Yb.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#090909",
+        "foreground": "#f3ddcf",
+        "cursor": "#f3ddcf"
+    },
+    "colors": {
+        "color0": "#090909",
+        "color1": "#9F665C",
+        "color2": "#C5674E",
+        "color3": "#B88476",
+        "color4": "#D08A77",
+        "color5": "#CF7983",
+        "color6": "#E4A691",
+        "color7": "#f3ddcf",
+        "color8": "#aa9a90",
+        "color9": "#9F665C",
+        "color10": "#C5674E",
+        "color11": "#B88476",
+        "color12": "#D08A77",
+        "color13": "#CF7983",
+        "color14": "#E4A691",
+        "color15": "#f3ddcf"
+    }
+}

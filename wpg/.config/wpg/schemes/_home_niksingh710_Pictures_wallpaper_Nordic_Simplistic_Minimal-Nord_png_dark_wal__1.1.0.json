@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/Simplistic/Minimal-Nord.png",
+    "alpha": "80",
+    "special": {
+        "background": "#101218",
+        "foreground": "#bfd5d5",
+        "cursor": "#bfd5d5"
+    },
+    "colors": {
+        "color0": "#101218",
+        "color1": "#617F82",
+        "color2": "#6F9293",
+        "color3": "#7CA4A4",
+        "color4": "#8AB6B5",
+        "color5": "#8EBBBA",
+        "color6": "#8FBDBC",
+        "color7": "#bfd5d5",
+        "color8": "#859595",
+        "color9": "#617F82",
+        "color10": "#6F9293",
+        "color11": "#7CA4A4",
+        "color12": "#8AB6B5",
+        "color13": "#8EBBBA",
+        "color14": "#8FBDBC",
+        "color15": "#bfd5d5"
+    }
+}

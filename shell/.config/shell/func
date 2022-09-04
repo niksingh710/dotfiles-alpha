@@ -1,0 +1,91 @@
+# This is a config to be sourced for user based functions
+boot=false
+
+[ -f /tmp/once-river ] || boot=true
+
+notify(){
+ [[ $boot == "true" ]] && return
+ hash notify-send 2>/dev/null || echo "libnotify is not present"
+ notify-send "$@"
+}
+
+mako-reload(){
+    [[ $boot == "true" ]] && return
+    hash makoctl 2>/dev/null && makoctl reload
+}
+
+shell(){
+    exec $(basename `readlink /proc/$$/exe`)
+}
+
+recent(){
+    echo $(/usr/bin/ls -t | head -n 1)
+}
+
+open(){
+    dir_path="."
+    ARGS="$@"
+    if [ $# -eq 0 ];then
+      FIND="find -L $dir_path -path \"*/.git\" -prune -o -type f"
+      file=$(eval "$FIND | fzf $FZF_CTRL_T_OPTS --layout=reverse")
+      ARGS="$file"
+    fi
+    xdg-open "$ARGS" &>/dev/null & disown
+}
+
+gd() {
+  hash fzf 2>/dev/null || return 1
+  preview="git diff $@ --color=always -- {-1}"
+  git diff $@ --name-only | fzf -m --ansi --preview $preview
+}
+
+# Fzf 
+
+fcd(){
+    hash fzf 2>/dev/null || return
+    dir_path="."
+    [ ! -z $1 ] && dir_path="$1"
+    FIND="find $dir_path -path \"*/.git\" -prune -o -type d"
+    PREVIEW=""
+    hash fd 2>/dev/null && FIND="fd $dir_path --type d --hidden"
+    hash pistol 2>/dev/null && PREVIEW="--preview='pistol -c $HOME/.config/pistol/pistol.conf {}'"
+
+    command="$FIND | fzf --height 60% --layout=reverse $PREVIEW"
+    VAR=$(eval $command)
+
+    [ -z $VAR ] && VAR=$(pwd)
+    cd $VAR
+}
+
+search-install(){
+  hash fzf 2>/dev/null || return
+  pkmgr="sudo pacman"
+  hash paru 2>/dev/null && pkmgr="paru"
+  $pkmgr -Slq | fzf --bind=ctrl-space:select --multi --preview "$pkmgr -Si {1}" | xargs -ro $pkmgr -S
+}
+
+search-remove(){
+  hash fzf 2>/dev/null || return
+  pkmgr="sudo pacman"
+  hash paru 2>/dev/null && pkmgr="paru"
+  $pkmgr -Qq | fzf --bind=ctrl-space:select --multi --preview "$pkmgr -Qi {1}" | xargs -ro $pkmgr -Rns
+}
+
+sync(){
+  pkmgr="sudo pacman"
+  hash paru 2>/dev/null && pkmgr=paru
+  $pkmgr -Sy 
+  [ -f $HOME/binaries/waybar/waybar-arch-checkupdate ] || return
+  $HOME/binaries/waybar/waybar-arch-checkupdate -n > /tmp/waybarup   
+}
+
+# System
+update(){
+  pkmgr="sudo pacman"
+  hash paru 2>/dev/null && pkmgr="paru"
+  
+  $pkmgr -Syu
+  [ -f $HOME/binaries/waybar/waybar-arch-checkupdate ] || return
+  $HOME/binaries/waybar/waybar-arch-checkupdate -n > /tmp/waybarup
+}
+

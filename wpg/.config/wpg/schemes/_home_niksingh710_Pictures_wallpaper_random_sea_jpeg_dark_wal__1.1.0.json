@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/sea.jpeg",
+    "alpha": "80",
+    "special": {
+        "background": "#030609",
+        "foreground": "#d4beb1",
+        "cursor": "#d4beb1"
+    },
+    "colors": {
+        "color0": "#030609",
+        "color1": "#363642",
+        "color2": "#533C42",
+        "color3": "#5B4C4D",
+        "color4": "#6F4D49",
+        "color5": "#985F51",
+        "color6": "#A15A48",
+        "color7": "#d4beb1",
+        "color8": "#94857b",
+        "color9": "#363642",
+        "color10": "#533C42",
+        "color11": "#5B4C4D",
+        "color12": "#6F4D49",
+        "color13": "#985F51",
+        "color14": "#A15A48",
+        "color15": "#d4beb1"
+    }
+}

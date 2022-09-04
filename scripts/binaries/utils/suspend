@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pgrep -x create_ap &>/dev/null && exit
+status=$(nmcli -f GENERAL.STATE con show Hotspot | awk '{print $2}')
+[[ "$status" == "activated" ]] && exit
+systemctl suspend

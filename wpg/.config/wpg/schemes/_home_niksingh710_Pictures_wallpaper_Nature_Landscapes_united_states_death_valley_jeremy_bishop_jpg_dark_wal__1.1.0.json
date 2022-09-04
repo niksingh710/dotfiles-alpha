@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/united_states/death_valley_jeremy_bishop.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#111316",
+        "foreground": "#d3dee2",
+        "cursor": "#d3dee2"
+    },
+    "colors": {
+        "color0": "#111316",
+        "color1": "#82593F",
+        "color2": "#8D6752",
+        "color3": "#916A56",
+        "color4": "#9F8277",
+        "color5": "#A9A6AD",
+        "color6": "#C8B7B6",
+        "color7": "#d3dee2",
+        "color8": "#939b9e",
+        "color9": "#82593F",
+        "color10": "#8D6752",
+        "color11": "#916A56",
+        "color12": "#9F8277",
+        "color13": "#A9A6AD",
+        "color14": "#C8B7B6",
+        "color15": "#d3dee2"
+    }
+}

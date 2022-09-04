@@ -1,0 +1,14 @@
+#!/bin/bash
+
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+
+TOUCHPAD=${TOUCHPAD:-"pointer-1267-91-Elan_Touchpad"}
+TOUCHPAD_PROFILE=${TOUCHPAD_PROFILE:-adaptive}
+TOUCHPAD_ACCEL=${TOUCHPAD_ACCEL:-0.6}
+TOUCHPAD_NATURAL_SCROLL=${TOUCHPAD_NATURAL_SCROLL:-enabled}
+TOUCHPAD_TAP=${TOUCHPAD_TAP:-enabled}
+
+riverctl input $TOUCHPAD accel-profile $TOUCHPAD_PROFILE
+riverctl input $TOUCHPAD pointer-accel $TOUCHPAD_ACCEL
+riverctl input $TOUCHPAD natural-scroll $TOUCHPAD_NATURAL_SCROLL
+riverctl input $TOUCHPAD tap $TOUCHPAD_TAP

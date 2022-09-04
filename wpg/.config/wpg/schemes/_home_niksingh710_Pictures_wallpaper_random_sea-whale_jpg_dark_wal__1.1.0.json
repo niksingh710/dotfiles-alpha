@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/sea-whale.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#061720",
+        "foreground": "#a5bbc3",
+        "cursor": "#a5bbc3"
+    },
+    "colors": {
+        "color0": "#061720",
+        "color1": "#285669",
+        "color2": "#1B6275",
+        "color3": "#2C6576",
+        "color4": "#4B606F",
+        "color5": "#357284",
+        "color6": "#4B7787",
+        "color7": "#a5bbc3",
+        "color8": "#738288",
+        "color9": "#285669",
+        "color10": "#1B6275",
+        "color11": "#2C6576",
+        "color12": "#4B606F",
+        "color13": "#357284",
+        "color14": "#4B7787",
+        "color15": "#a5bbc3"
+    }
+}

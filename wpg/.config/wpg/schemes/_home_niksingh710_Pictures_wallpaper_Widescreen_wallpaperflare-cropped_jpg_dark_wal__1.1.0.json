@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Widescreen/wallpaperflare-cropped.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#070708",
+        "foreground": "#e4eaea",
+        "cursor": "#e4eaea"
+    },
+    "colors": {
+        "color0": "#070708",
+        "color1": "#6E8C9E",
+        "color2": "#5AE1C1",
+        "color3": "#949494",
+        "color4": "#B6B6B6",
+        "color5": "#B4CCD4",
+        "color6": "#CECECE",
+        "color7": "#e4eaea",
+        "color8": "#9fa3a3",
+        "color9": "#6E8C9E",
+        "color10": "#5AE1C1",
+        "color11": "#949494",
+        "color12": "#B6B6B6",
+        "color13": "#B4CCD4",
+        "color14": "#CECECE",
+        "color15": "#e4eaea"
+    }
+}

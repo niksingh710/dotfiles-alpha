@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/HD/statue_glyptoteket_kibenhavn_denmark_john_towner.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0a0c0d",
+        "foreground": "#e0e0de",
+        "cursor": "#e0e0de"
+    },
+    "colors": {
+        "color0": "#0a0c0d",
+        "color1": "#71706B",
+        "color2": "#7F7F7A",
+        "color3": "#85837C",
+        "color4": "#93918B",
+        "color5": "#AFADA7",
+        "color6": "#C3C1BC",
+        "color7": "#e0e0de",
+        "color8": "#9c9c9b",
+        "color9": "#71706B",
+        "color10": "#7F7F7A",
+        "color11": "#85837C",
+        "color12": "#93918B",
+        "color13": "#AFADA7",
+        "color14": "#C3C1BC",
+        "color15": "#e0e0de"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/italy/snow_covered_mountains_grigone_asoggetti.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0d1411",
+        "foreground": "#c5bdbb",
+        "cursor": "#c5bdbb"
+    },
+    "colors": {
+        "color0": "#0d1411",
+        "color1": "#6A5E54",
+        "color2": "#475C67",
+        "color3": "#556671",
+        "color4": "#6D7073",
+        "color5": "#89786F",
+        "color6": "#86807E",
+        "color7": "#c5bdbb",
+        "color8": "#898482",
+        "color9": "#6A5E54",
+        "color10": "#475C67",
+        "color11": "#556671",
+        "color12": "#6D7073",
+        "color13": "#89786F",
+        "color14": "#86807E",
+        "color15": "#c5bdbb"
+    }
+}

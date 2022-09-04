@@ -1,0 +1,62 @@
+#!/bin/bash
+
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+
+sys-var(){
+  exec systemctl --user import-environment XDG_SESSION_TYPE XDG_CURRENT_DESKTOP &
+  exec dbus-update-activation-environment WAYLAND_DISPLAY &
+}
+
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+ID=1243
+
+# If wallpaper script running wbar or other stuff then won't be loaded twice
+skip=false
+if [ $# -eq 1 ];then
+  if [ $1 = '-s' ];then
+    skip=true
+  fi
+fi
+
+
+notify "Reloading ..." -p -t 0 > /tmp/reloadid
+[ -f /tmp/reloadid ] && ID=$(/usr/bin/cat /tmp/reloadid)
+
+base(){
+  for i in $(find $LOC/utils/ -type f)
+  do
+    $i &>/dev/null
+  done
+
+  for i in $(find $LOC/keymaps/ -type f)
+  do
+    $i &>/dev/null 
+  done
+}
+
+once(){
+  [ -f /tmp/once-river ] && return 
+  for i in $(find $LOC/once/ -type f)
+  do
+    $i &>/dev/null 
+  done
+}
+
+load(){
+    base
+    if [[ ${skip} == "true" ]] ;then
+        [ -f $HOME/binaries/bin/wbar ] && $HOME/binaries/bin/wbar &>/dev/null
+    else
+        [ -f $HOME/binaries/bin/setwal ] && $HOME/binaries/bin/setwal
+    fi
+}
+
+main(){
+    sys-var
+    load && once
+}
+
+main && notify "Completed Reloading" -r "$ID" -t 2000 || notify "Error occured while reloading River Confs." -r "$ID"
+
+echo "This file is genrated by river script. To make sure that it run once. Will be erased at boot." > /tmp/once-river
+

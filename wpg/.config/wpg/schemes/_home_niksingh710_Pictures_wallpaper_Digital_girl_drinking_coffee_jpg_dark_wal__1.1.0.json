@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/girl_drinking_coffee.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#130d13",
+        "foreground": "#c1c8e8",
+        "cursor": "#c1c8e8"
+    },
+    "colors": {
+        "color0": "#130d13",
+        "color1": "#498DDD",
+        "color2": "#728ED7",
+        "color3": "#7E98E4",
+        "color4": "#D493B4",
+        "color5": "#AAA5DC",
+        "color6": "#8299E4",
+        "color7": "#c1c8e8",
+        "color8": "#878ca2",
+        "color9": "#498DDD",
+        "color10": "#728ED7",
+        "color11": "#7E98E4",
+        "color12": "#D493B4",
+        "color13": "#AAA5DC",
+        "color14": "#8299E4",
+        "color15": "#c1c8e8"
+    }
+}

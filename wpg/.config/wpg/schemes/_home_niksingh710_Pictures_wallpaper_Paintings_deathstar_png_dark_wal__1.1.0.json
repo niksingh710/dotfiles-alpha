@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Paintings/deathstar.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0D0F0E",
+        "foreground": "#d8d6d7",
+        "cursor": "#d8d6d7"
+    },
+    "colors": {
+        "color0": "#0D0F0E",
+        "color1": "#93887A",
+        "color2": "#758789",
+        "color3": "#AD958D",
+        "color4": "#A6A49D",
+        "color5": "#D0B2A2",
+        "color6": "#E2C8B1",
+        "color7": "#d8d6d7",
+        "color8": "#979596",
+        "color9": "#93887A",
+        "color10": "#758789",
+        "color11": "#AD958D",
+        "color12": "#A6A49D",
+        "color13": "#D0B2A2",
+        "color14": "#E2C8B1",
+        "color15": "#d8d6d7"
+    }
+}

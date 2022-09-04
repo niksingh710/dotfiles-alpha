@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/mine/xn1Sx7n.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#1b0711",
+        "foreground": "#e3e3c3",
+        "cursor": "#e3e3c3"
+    },
+    "colors": {
+        "color0": "#1b0711",
+        "color1": "#BB5F3B",
+        "color2": "#7C8457",
+        "color3": "#B19D62",
+        "color4": "#CCA562",
+        "color5": "#D4C37A",
+        "color6": "#BBC58A",
+        "color7": "#e3e3c3",
+        "color8": "#9e9e88",
+        "color9": "#BB5F3B",
+        "color10": "#7C8457",
+        "color11": "#B19D62",
+        "color12": "#CCA562",
+        "color13": "#D4C37A",
+        "color14": "#BBC58A",
+        "color15": "#e3e3c3"
+    }
+}

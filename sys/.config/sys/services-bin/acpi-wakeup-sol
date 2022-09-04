@@ -1,0 +1,10 @@
+#!/bin/bash
+
+arr=("XHC" "AWAC" "RP03" "RP05" "RP11")
+
+for device in ${arr[@]}
+do
+    if grep -qw ^$device.*enabled /proc/acpi/wakeup; then
+        sudo sh -c "echo $device > /proc/acpi/wakeup"
+    fi
+done

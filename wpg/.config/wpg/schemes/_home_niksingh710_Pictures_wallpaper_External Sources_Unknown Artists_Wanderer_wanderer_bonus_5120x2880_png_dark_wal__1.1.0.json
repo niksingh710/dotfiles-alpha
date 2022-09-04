@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Unknown Artists/Wanderer/wanderer_bonus_5120x2880.png",
+    "alpha": "80",
+    "special": {
+        "background": "#222424",
+        "foreground": "#cabc98",
+        "cursor": "#cabc98"
+    },
+    "colors": {
+        "color0": "#222424",
+        "color1": "#456D78",
+        "color2": "#E64421",
+        "color3": "#864B42",
+        "color4": "#887A45",
+        "color5": "#DBAB3C",
+        "color6": "#E6AE3C",
+        "color7": "#cabc98",
+        "color8": "#8d836a",
+        "color9": "#456D78",
+        "color10": "#E64421",
+        "color11": "#864B42",
+        "color12": "#887A45",
+        "color13": "#DBAB3C",
+        "color14": "#E6AE3C",
+        "color15": "#cabc98"
+    }
+}

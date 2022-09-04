@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/united_states_emmirates/sand_dunes_safari_dubai_dubai_kent_tupas.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#24191c",
+        "foreground": "#e7d6d0",
+        "cursor": "#e7d6d0"
+    },
+    "colors": {
+        "color0": "#24191c",
+        "color1": "#996263",
+        "color2": "#AD706D",
+        "color3": "#DA9D77",
+        "color4": "#8B7B9D",
+        "color5": "#A693AF",
+        "color6": "#D7B1A8",
+        "color7": "#e7d6d0",
+        "color8": "#a19591",
+        "color9": "#996263",
+        "color10": "#AD706D",
+        "color11": "#DA9D77",
+        "color12": "#8B7B9D",
+        "color13": "#A693AF",
+        "color14": "#D7B1A8",
+        "color15": "#e7d6d0"
+    }
+}

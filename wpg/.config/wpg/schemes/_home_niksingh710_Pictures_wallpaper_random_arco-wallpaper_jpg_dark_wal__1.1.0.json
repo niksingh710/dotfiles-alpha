@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/arco-wallpaper.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#090e10",
+        "foreground": "#a9bac8",
+        "cursor": "#a9bac8"
+    },
+    "colors": {
+        "color0": "#090e10",
+        "color1": "#395E75",
+        "color2": "#535865",
+        "color3": "#8F7072",
+        "color4": "#3E6882",
+        "color5": "#4F718C",
+        "color6": "#707889",
+        "color7": "#a9bac8",
+        "color8": "#76828c",
+        "color9": "#395E75",
+        "color10": "#535865",
+        "color11": "#8F7072",
+        "color12": "#3E6882",
+        "color13": "#4F718C",
+        "color14": "#707889",
+        "color15": "#a9bac8"
+    }
+}

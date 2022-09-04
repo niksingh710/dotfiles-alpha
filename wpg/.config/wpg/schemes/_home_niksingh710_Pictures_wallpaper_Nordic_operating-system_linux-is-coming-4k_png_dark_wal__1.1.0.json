@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/operating-system/linux-is-coming-4k.png",
+    "alpha": "80",
+    "special": {
+        "background": "#10151b",
+        "foreground": "#e0e2e4",
+        "cursor": "#e0e2e4"
+    },
+    "colors": {
+        "color0": "#10151b",
+        "color1": "#C8636D",
+        "color2": "#77888E",
+        "color3": "#99A2A4",
+        "color4": "#C8C79E",
+        "color5": "#82A2C2",
+        "color6": "#BABEC1",
+        "color7": "#e0e2e4",
+        "color8": "#9c9e9f",
+        "color9": "#C8636D",
+        "color10": "#77888E",
+        "color11": "#99A2A4",
+        "color12": "#C8C79E",
+        "color13": "#82A2C2",
+        "color14": "#BABEC1",
+        "color15": "#e0e2e4"
+    }
+}

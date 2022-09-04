@@ -1,0 +1,3 @@
+#!/bin/bash
+[ -f /opt/google/chrome/google-chrome ] || exit 1
+/opt/google/chrome/google-chrome --profile-directory=Default --app-id=kmcnjdcipmgchfndpapkoecbidofdpbc %U &>/dev/null & 

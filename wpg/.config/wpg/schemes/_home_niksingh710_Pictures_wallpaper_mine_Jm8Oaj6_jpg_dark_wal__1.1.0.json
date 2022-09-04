@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/mine/Jm8Oaj6.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#2e331d",
+        "foreground": "#cad7c7",
+        "cursor": "#cad7c7"
+    },
+    "colors": {
+        "color0": "#2e331d",
+        "color1": "#126D89",
+        "color2": "#46798B",
+        "color3": "#827B83",
+        "color4": "#2F94A3",
+        "color5": "#61B0A6",
+        "color6": "#7BC1B0",
+        "color7": "#cad7c7",
+        "color8": "#8d968b",
+        "color9": "#126D89",
+        "color10": "#46798B",
+        "color11": "#827B83",
+        "color12": "#2F94A3",
+        "color13": "#61B0A6",
+        "color14": "#7BC1B0",
+        "color15": "#cad7c7"
+    }
+}

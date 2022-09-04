@@ -1,0 +1,41 @@
+# This is zsh default config
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+
+PATHLIST=(
+  $LOC/variables
+)
+sourcer ${PATHLIST[@]}
+
+[[ -f $LOC/plugins/zsh-snap/znap.zsh ]] || git clone --depth 1 -- https://github.com/marlonrichert/zsh-snap.git $LOC/plugins/zsh-snap
+
+source $LOC/plugins/zsh-snap/znap.zsh
+
+znap install ohmyzsh/ohmyzsh
+znap source ohmyzsh/ohmyzsh plugins/{colored-man-pages,sudo}
+znap source zsh-users/zsh-autosuggestions
+znap source z-shell/F-Sy-H
+znap source chrissicool/zsh-256color
+znap source jeffreytse/zsh-vi-mode
+#znap source marlonrichert/zsh-autocomplete
+
+prompt-init(){
+    znap eval starship 'starship init zsh --print-full-init'
+    prompt_starship_precmd
+    znap prompt
+}
+
+zvm_after_init_commands+=('[ -f $LOC/afterinit ] && . $LOC/afterinit')
+
+[ -f $LOC/zfunc ] && . $LOC/zfunc
+
+hash zoxide 2>/dev/null && eval "$(zoxide init --cmd cd zsh)"
+hash starship 2>/dev/null && prompt-init || echo "starship missing"
+[ -d $LOC/completions ] && fpath+=($LOC/completions/)
+
+alias history="history 0"
+# exporting here as oh-my-zsh overrides them
+export HISTSIZE=10000000
+export SAVEHIST=10000000
+export HISTFILE="$HOME/.shellhist"
+setopt INC_APPEND_HISTORY
+

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/nong-vang-5w-sLCUhDYc-unsplash.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0f1611",
+        "foreground": "#e5e6e6",
+        "cursor": "#e5e6e6"
+    },
+    "colors": {
+        "color0": "#0f1611",
+        "color1": "#AC8C67",
+        "color2": "#C59C51",
+        "color3": "#688597",
+        "color4": "#A7A5A5",
+        "color5": "#D1B498",
+        "color6": "#DEC8AE",
+        "color7": "#e5e6e6",
+        "color8": "#a0a1a1",
+        "color9": "#AC8C67",
+        "color10": "#C59C51",
+        "color11": "#688597",
+        "color12": "#A7A5A5",
+        "color13": "#D1B498",
+        "color14": "#DEC8AE",
+        "color15": "#e5e6e6"
+    }
+}

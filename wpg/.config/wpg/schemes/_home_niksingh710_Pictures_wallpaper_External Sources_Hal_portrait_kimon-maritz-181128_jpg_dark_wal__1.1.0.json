@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/kimon-maritz-181128.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#221d19",
+        "foreground": "#e0e2e4",
+        "cursor": "#e0e2e4"
+    },
+    "colors": {
+        "color0": "#221d19",
+        "color1": "#87786B",
+        "color2": "#958678",
+        "color3": "#667B87",
+        "color4": "#7298AE",
+        "color5": "#A7A09A",
+        "color6": "#B1C1C9",
+        "color7": "#e0e2e4",
+        "color8": "#9c9e9f",
+        "color9": "#87786B",
+        "color10": "#958678",
+        "color11": "#667B87",
+        "color12": "#7298AE",
+        "color13": "#A7A09A",
+        "color14": "#B1C1C9",
+        "color15": "#e0e2e4"
+    }
+}

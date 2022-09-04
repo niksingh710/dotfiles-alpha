@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/H30Q7ME.png",
+    "alpha": "80",
+    "special": {
+        "background": "#4b4595",
+        "foreground": "#d0def6",
+        "cursor": "#d0def6"
+    },
+    "colors": {
+        "color0": "#4b4595",
+        "color1": "#C692FE",
+        "color2": "#C594FE",
+        "color3": "#C496FE",
+        "color4": "#C298FE",
+        "color5": "#C29AFE",
+        "color6": "#9EC0FF",
+        "color7": "#d0def6",
+        "color8": "#919bac",
+        "color9": "#C692FE",
+        "color10": "#C594FE",
+        "color11": "#C496FE",
+        "color12": "#C298FE",
+        "color13": "#C29AFE",
+        "color14": "#9EC0FF",
+        "color15": "#d0def6"
+    }
+}

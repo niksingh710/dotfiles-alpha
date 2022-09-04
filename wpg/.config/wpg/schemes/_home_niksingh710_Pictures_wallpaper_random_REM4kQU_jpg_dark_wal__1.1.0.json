@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/REM4kQU.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#090506",
+        "foreground": "#b0bcce",
+        "cursor": "#b0bcce"
+    },
+    "colors": {
+        "color0": "#090506",
+        "color1": "#A45B35",
+        "color2": "#986562",
+        "color3": "#D99B66",
+        "color4": "#38578B",
+        "color5": "#556C98",
+        "color6": "#98758A",
+        "color7": "#b0bcce",
+        "color8": "#7b8390",
+        "color9": "#A45B35",
+        "color10": "#986562",
+        "color11": "#D99B66",
+        "color12": "#38578B",
+        "color13": "#556C98",
+        "color14": "#98758A",
+        "color15": "#b0bcce"
+    }
+}

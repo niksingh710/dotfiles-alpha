@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Paranoid Android/A new beginning.png",
+    "alpha": "80",
+    "special": {
+        "background": "#45180d",
+        "foreground": "#f2ebe0",
+        "cursor": "#f2ebe0"
+    },
+    "colors": {
+        "color0": "#45180d",
+        "color1": "#FAB34D",
+        "color2": "#EEA264",
+        "color3": "#FDC868",
+        "color4": "#B6998E",
+        "color5": "#EAB48F",
+        "color6": "#F5D2A4",
+        "color7": "#f2ebe0",
+        "color8": "#a9a49c",
+        "color9": "#FAB34D",
+        "color10": "#EEA264",
+        "color11": "#FDC868",
+        "color12": "#B6998E",
+        "color13": "#EAB48F",
+        "color14": "#F5D2A4",
+        "color15": "#f2ebe0"
+    }
+}

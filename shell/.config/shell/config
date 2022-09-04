@@ -1,0 +1,38 @@
+# This is a simple shell config to be loaded by {shells to have same working}
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+sourcer(){
+    ARR=("$@")
+    for i in "${ARR[@]}"
+      do
+       [ -f $i ] && . $i
+      done
+}
+PATHLIST=(
+  $HOME/.config/sys/env
+  $LOC/env
+  $LOC/path
+  $LOC/func
+  $LOC/alias
+)
+
+sourcer ${PATHLIST[@]}
+
+hash fnm 2>/dev/null && eval "$(fnm env)"
+
+[ -f $HOME/.config/wpg/sequences ] && /usr/bin/cat $HOME/.config/wpg/sequences 
+
+hash colorscript 2>/dev/null && colorscript -r 
+
+init-shell(){
+    [ -f $LOC/$1/config ] && . $LOC/$1/config
+}
+
+init-shell $(basename `readlink /proc/$$/exe`)
+unset -f sourcer
+
+stty -ixon
+setterm -cursor on >> /etc/issue

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# This script generate lock screen wallpaper using imagemagick and current wallpaper
+
+if [ ! -f /tmp/currwal ]; then
+  notify-send "Set wallpaper using setwal command"
+  exit
+fi
+if ! hash convert 2>/dev/null;then
+  notify-send "ImageMagick is not installed"
+  exit
+fi
+wallpaper=$(/usr/bin/cat /tmp/currwal)
+convert "$wallpaper" -resize 1920x1080 "/tmp/lockwal.png"
+convert "/tmp/lockwal.png" -filter Gaussian -blur 00x25 /tmp/lockwal.png
+[ -f $HOME/Pictures/icns/arch.png ] && convert /tmp/lockwal.png $HOME/Pictures/icns/arch.png -gravity center -composite -matte /tmp/lockwal.png || notify-send "Failed to find banner"
+

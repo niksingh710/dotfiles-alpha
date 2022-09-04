@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/Simplistic/Nordic-Heroin.png",
+    "alpha": "80",
+    "special": {
+        "background": "#1b1e25",
+        "foreground": "#b9d4dc",
+        "cursor": "#b9d4dc"
+    },
+    "colors": {
+        "color0": "#1b1e25",
+        "color1": "#658B99",
+        "color2": "#6D97A5",
+        "color3": "#6E98A6",
+        "color4": "#719CAB",
+        "color5": "#78A8B7",
+        "color6": "#7FB2C1",
+        "color7": "#b9d4dc",
+        "color8": "#81949a",
+        "color9": "#658B99",
+        "color10": "#6D97A5",
+        "color11": "#6E98A6",
+        "color12": "#719CAB",
+        "color13": "#78A8B7",
+        "color14": "#7FB2C1",
+        "color15": "#b9d4dc"
+    }
+}

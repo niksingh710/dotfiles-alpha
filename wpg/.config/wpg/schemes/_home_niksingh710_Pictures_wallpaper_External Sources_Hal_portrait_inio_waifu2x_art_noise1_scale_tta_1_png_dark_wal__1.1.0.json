@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/inio_waifu2x_art_noise1_scale_tta_1.png",
+    "alpha": "80",
+    "special": {
+        "background": "#040404",
+        "foreground": "#f4f4f4",
+        "cursor": "#f4f4f4"
+    },
+    "colors": {
+        "color0": "#040404",
+        "color1": "#A8A8A8",
+        "color2": "#B7B7B7",
+        "color3": "#C8C8C8",
+        "color4": "#D7D7D7",
+        "color5": "#E7E7E7",
+        "color6": "#F3F3F3",
+        "color7": "#f4f4f4",
+        "color8": "#aaaaaa",
+        "color9": "#A8A8A8",
+        "color10": "#B7B7B7",
+        "color11": "#C8C8C8",
+        "color12": "#D7D7D7",
+        "color13": "#E7E7E7",
+        "color14": "#F3F3F3",
+        "color15": "#f4f4f4"
+    }
+}

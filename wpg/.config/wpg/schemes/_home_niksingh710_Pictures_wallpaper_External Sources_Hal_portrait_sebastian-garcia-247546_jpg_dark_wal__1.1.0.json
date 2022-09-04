@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/sebastian-garcia-247546.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#101619",
+        "foreground": "#e5e5e8",
+        "cursor": "#e5e5e8"
+    },
+    "colors": {
+        "color0": "#101619",
+        "color1": "#778599",
+        "color2": "#A29DAA",
+        "color3": "#CEB6B4",
+        "color4": "#CEC0C0",
+        "color5": "#D2CDD3",
+        "color6": "#EFD9D1",
+        "color7": "#e5e5e8",
+        "color8": "#a0a0a2",
+        "color9": "#778599",
+        "color10": "#A29DAA",
+        "color11": "#CEB6B4",
+        "color12": "#CEC0C0",
+        "color13": "#D2CDD3",
+        "color14": "#EFD9D1",
+        "color15": "#e5e5e8"
+    }
+}

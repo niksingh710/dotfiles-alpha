@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Gruvy/Dawn.png",
+    "alpha": "80",
+    "special": {
+        "background": "#02111D",
+        "foreground": "#f3d7ad",
+        "cursor": "#f3d7ad"
+    },
+    "colors": {
+        "color0": "#02111D",
+        "color1": "#70445A",
+        "color2": "#873F57",
+        "color3": "#C23E55",
+        "color4": "#8E4358",
+        "color5": "#AC4C5C",
+        "color6": "#E35C5F",
+        "color7": "#f3d7ad",
+        "color8": "#aa9679",
+        "color9": "#70445A",
+        "color10": "#873F57",
+        "color11": "#C23E55",
+        "color12": "#8E4358",
+        "color13": "#AC4C5C",
+        "color14": "#E35C5F",
+        "color15": "#f3d7ad"
+    }
+}

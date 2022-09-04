@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/flame-wallpaper-for-2560x1600-61-1054.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#09050B",
+        "foreground": "#e8c9c2",
+        "cursor": "#e8c9c2"
+    },
+    "colors": {
+        "color0": "#09050B",
+        "color1": "#C13C31",
+        "color2": "#A7505C",
+        "color3": "#D46B57",
+        "color4": "#E1906A",
+        "color5": "#F4C16E",
+        "color6": "#C2668E",
+        "color7": "#e8c9c2",
+        "color8": "#a28c87",
+        "color9": "#C13C31",
+        "color10": "#A7505C",
+        "color11": "#D46B57",
+        "color12": "#E1906A",
+        "color13": "#F4C16E",
+        "color14": "#C2668E",
+        "color15": "#e8c9c2"
+    }
+}

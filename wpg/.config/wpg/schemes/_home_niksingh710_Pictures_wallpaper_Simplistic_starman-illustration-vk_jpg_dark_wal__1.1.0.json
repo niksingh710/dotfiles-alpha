@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Simplistic/starman-illustration-vk.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#070B1D",
+        "foreground": "#b8b3be",
+        "cursor": "#b8b3be"
+    },
+    "colors": {
+        "color0": "#070B1D",
+        "color1": "#2A4363",
+        "color2": "#36486A",
+        "color3": "#49536F",
+        "color4": "#B51945",
+        "color5": "#3A5E80",
+        "color6": "#57708D",
+        "color7": "#b8b3be",
+        "color8": "#807d85",
+        "color9": "#2A4363",
+        "color10": "#36486A",
+        "color11": "#49536F",
+        "color12": "#B51945",
+        "color13": "#3A5E80",
+        "color14": "#57708D",
+        "color15": "#b8b3be"
+    }
+}

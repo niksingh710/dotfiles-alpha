@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/operating-system/gnu-linux.png",
+    "alpha": "80",
+    "special": {
+        "background": "#131218",
+        "foreground": "#bfdfe9",
+        "cursor": "#bfdfe9"
+    },
+    "colors": {
+        "color0": "#131218",
+        "color1": "#618697",
+        "color2": "#6A95A6",
+        "color3": "#74A5B7",
+        "color4": "#7DB3C6",
+        "color5": "#83BBCF",
+        "color6": "#8CC9DD",
+        "color7": "#bfdfe9",
+        "color8": "#859ca3",
+        "color9": "#618697",
+        "color10": "#6A95A6",
+        "color11": "#74A5B7",
+        "color12": "#7DB3C6",
+        "color13": "#83BBCF",
+        "color14": "#8CC9DD",
+        "color15": "#bfdfe9"
+    }
+}

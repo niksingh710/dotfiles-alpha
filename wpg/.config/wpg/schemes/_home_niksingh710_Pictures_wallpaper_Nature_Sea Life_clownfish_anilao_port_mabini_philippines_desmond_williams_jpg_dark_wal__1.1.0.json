@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Sea Life/clownfish/anilao_port_mabini_philippines_desmond_williams.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0a0301",
+        "foreground": "#abb2c9",
+        "cursor": "#abb2c9"
+    },
+    "colors": {
+        "color0": "#0a0301",
+        "color1": "#A72501",
+        "color2": "#8E5D31",
+        "color3": "#906F4E",
+        "color4": "#A37850",
+        "color5": "#AF8C66",
+        "color6": "#C89E6F",
+        "color7": "#abb2c9",
+        "color8": "#777c8c",
+        "color9": "#A72501",
+        "color10": "#8E5D31",
+        "color11": "#906F4E",
+        "color12": "#A37850",
+        "color13": "#AF8C66",
+        "color14": "#C89E6F",
+        "color15": "#abb2c9"
+    }
+}

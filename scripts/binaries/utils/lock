@@ -1,0 +1,9 @@
+#!/bin/bash
+# Swaylock 
+hash swaylock 2>/dev/null || exit
+[ -f /tmp/lockwal.png ] || swaylock -f -c 000000
+swaylock -i /tmp/lockwal.png -f \
+  -c 000000ff \
+  --indicator-radius 20 \
+  --indicator-thickness 5 \
+  --indicator-y-position 1000

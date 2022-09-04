@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/mine/purple-aurora-sparks-wallpaper-for-2880x1800-60-533.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#090309",
+        "foreground": "#ca84c4",
+        "cursor": "#ca84c4"
+    },
+    "colors": {
+        "color0": "#090309",
+        "color1": "#730F6B",
+        "color2": "#605460",
+        "color3": "#8B0965",
+        "color4": "#875676",
+        "color5": "#431F84",
+        "color6": "#581989",
+        "color7": "#ca84c4",
+        "color8": "#8d5c89",
+        "color9": "#730F6B",
+        "color10": "#605460",
+        "color11": "#8B0965",
+        "color12": "#875676",
+        "color13": "#431F84",
+        "color14": "#581989",
+        "color15": "#ca84c4"
+    }
+}

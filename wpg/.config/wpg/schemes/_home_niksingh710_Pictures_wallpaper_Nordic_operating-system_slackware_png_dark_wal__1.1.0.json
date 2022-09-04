@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/operating-system/slackware.png",
+    "alpha": "80",
+    "special": {
+        "background": "#10131b",
+        "foreground": "#dcdde0",
+        "cursor": "#dcdde0"
+    },
+    "colors": {
+        "color0": "#10131b",
+        "color1": "#7D8189",
+        "color2": "#8B8F97",
+        "color3": "#979BA2",
+        "color4": "#AAAEB4",
+        "color5": "#B9BCC2",
+        "color6": "#BEC1C8",
+        "color7": "#dcdde0",
+        "color8": "#9a9a9c",
+        "color9": "#7D8189",
+        "color10": "#8B8F97",
+        "color11": "#979BA2",
+        "color12": "#AAAEB4",
+        "color13": "#B9BCC2",
+        "color14": "#BEC1C8",
+        "color15": "#dcdde0"
+    }
+}

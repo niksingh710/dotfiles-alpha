@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/infinity.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0A0A16",
+        "foreground": "#c8eef5",
+        "cursor": "#c8eef5"
+    },
+    "colors": {
+        "color0": "#0A0A16",
+        "color1": "#4D4D66",
+        "color2": "#C22D4E",
+        "color3": "#32509E",
+        "color4": "#4659A3",
+        "color5": "#C85BA5",
+        "color6": "#5FA6E0",
+        "color7": "#c8eef5",
+        "color8": "#8ca6ab",
+        "color9": "#4D4D66",
+        "color10": "#C22D4E",
+        "color11": "#32509E",
+        "color12": "#4659A3",
+        "color13": "#C85BA5",
+        "color14": "#5FA6E0",
+        "color15": "#c8eef5"
+    }
+}

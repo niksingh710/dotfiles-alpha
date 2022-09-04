@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/purple_asian_mountain_village.png",
+    "alpha": "80",
+    "special": {
+        "background": "#06050C",
+        "foreground": "#cbb6b6",
+        "cursor": "#cbb6b6"
+    },
+    "colors": {
+        "color0": "#06050C",
+        "color1": "#221E41",
+        "color2": "#1E2141",
+        "color3": "#2B2B4D",
+        "color4": "#3E3D61",
+        "color5": "#4F4560",
+        "color6": "#9D5533",
+        "color7": "#cbb6b6",
+        "color8": "#8e7f7f",
+        "color9": "#221E41",
+        "color10": "#1E2141",
+        "color11": "#2B2B4D",
+        "color12": "#3E3D61",
+        "color13": "#4F4560",
+        "color14": "#9D5533",
+        "color15": "#cbb6b6"
+    }
+}

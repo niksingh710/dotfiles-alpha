@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/Pixel Art/rainy_day.png",
+    "alpha": "80",
+    "special": {
+        "background": "#091018",
+        "foreground": "#e3e8e2",
+        "cursor": "#e3e8e2"
+    },
+    "colors": {
+        "color0": "#091018",
+        "color1": "#738574",
+        "color2": "#296B8E",
+        "color3": "#788B91",
+        "color4": "#93A194",
+        "color5": "#A9C3B7",
+        "color6": "#BBCCC2",
+        "color7": "#e3e8e2",
+        "color8": "#9ea29e",
+        "color9": "#738574",
+        "color10": "#296B8E",
+        "color11": "#788B91",
+        "color12": "#93A194",
+        "color13": "#A9C3B7",
+        "color14": "#BBCCC2",
+        "color15": "#e3e8e2"
+    }
+}

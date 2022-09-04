@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/pixelArt.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0d1125",
+        "foreground": "#bdb1bc",
+        "cursor": "#bdb1bc"
+    },
+    "colors": {
+        "color0": "#0d1125",
+        "color1": "#4B475A",
+        "color2": "#61555F",
+        "color3": "#564F6C",
+        "color4": "#645B71",
+        "color5": "#6E647A",
+        "color6": "#7A6882",
+        "color7": "#bdb1bc",
+        "color8": "#847b83",
+        "color9": "#4B475A",
+        "color10": "#61555F",
+        "color11": "#564F6C",
+        "color12": "#645B71",
+        "color13": "#6E647A",
+        "color14": "#7A6882",
+        "color15": "#bdb1bc"
+    }
+}

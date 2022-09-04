@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Simplistic/HappyBlueJive.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0f0f0d",
+        "foreground": "#cbcaca",
+        "cursor": "#cbcaca"
+    },
+    "colors": {
+        "color0": "#0f0f0d",
+        "color1": "#AC9168",
+        "color2": "#F6B24F",
+        "color3": "#4852B6",
+        "color4": "#817F80",
+        "color5": "#5EB9CB",
+        "color6": "#8E8E8D",
+        "color7": "#cbcaca",
+        "color8": "#8e8d8d",
+        "color9": "#AC9168",
+        "color10": "#F6B24F",
+        "color11": "#4852B6",
+        "color12": "#817F80",
+        "color13": "#5EB9CB",
+        "color14": "#8E8E8D",
+        "color15": "#cbcaca"
+    }
+}

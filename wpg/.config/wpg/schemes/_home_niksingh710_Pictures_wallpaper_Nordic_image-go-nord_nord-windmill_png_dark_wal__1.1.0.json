@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/image-go-nord/nord-windmill.png",
+    "alpha": "80",
+    "special": {
+        "background": "#1c1f27",
+        "foreground": "#daced4",
+        "cursor": "#daced4"
+    },
+    "colors": {
+        "color0": "#1c1f27",
+        "color1": "#CC8577",
+        "color2": "#607091",
+        "color3": "#9F768F",
+        "color4": "#C17C81",
+        "color5": "#7184AC",
+        "color6": "#AD8EAB",
+        "color7": "#daced4",
+        "color8": "#989094",
+        "color9": "#CC8577",
+        "color10": "#607091",
+        "color11": "#9F768F",
+        "color12": "#C17C81",
+        "color13": "#7184AC",
+        "color14": "#AD8EAB",
+        "color15": "#daced4"
+    }
+}

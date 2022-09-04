@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Simplistic/temple-on-mountain-minimal-4k-9z.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#080810",
+        "foreground": "#e2dddd",
+        "cursor": "#e2dddd"
+    },
+    "colors": {
+        "color0": "#080810",
+        "color1": "#DF1F1F",
+        "color2": "#E81F22",
+        "color3": "#E62021",
+        "color4": "#D65D5F",
+        "color5": "#A17F85",
+        "color6": "#ABA0A0",
+        "color7": "#e2dddd",
+        "color8": "#9e9a9a",
+        "color9": "#DF1F1F",
+        "color10": "#E81F22",
+        "color11": "#E62021",
+        "color12": "#D65D5F",
+        "color13": "#A17F85",
+        "color14": "#ABA0A0",
+        "color15": "#e2dddd"
+    }
+}

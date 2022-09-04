@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Widescreen/Nebulae.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0a090d",
+        "foreground": "#9eb1c2",
+        "cursor": "#9eb1c2"
+    },
+    "colors": {
+        "color0": "#0a090d",
+        "color1": "#593F40",
+        "color2": "#324764",
+        "color3": "#575058",
+        "color4": "#A4472F",
+        "color5": "#A56151",
+        "color6": "#DD8F6D",
+        "color7": "#9eb1c2",
+        "color8": "#6e7b87",
+        "color9": "#593F40",
+        "color10": "#324764",
+        "color11": "#575058",
+        "color12": "#A4472F",
+        "color13": "#A56151",
+        "color14": "#DD8F6D",
+        "color15": "#9eb1c2"
+    }
+}

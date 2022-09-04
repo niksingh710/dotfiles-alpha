@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/king_fisher_fishing_the_netherlands_vincent_van_zalinge.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#1d2621",
+        "foreground": "#9ecac3",
+        "cursor": "#9ecac3"
+    },
+    "colors": {
+        "color0": "#1d2621",
+        "color1": "#76843F",
+        "color2": "#8D8638",
+        "color3": "#A1933E",
+        "color4": "#918748",
+        "color5": "#988F66",
+        "color6": "#D89759",
+        "color7": "#9ecac3",
+        "color8": "#6e8d88",
+        "color9": "#76843F",
+        "color10": "#8D8638",
+        "color11": "#A1933E",
+        "color12": "#918748",
+        "color13": "#988F66",
+        "color14": "#D89759",
+        "color15": "#9ecac3"
+    }
+}

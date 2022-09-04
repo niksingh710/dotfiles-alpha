@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/unknown/rocky_mountain_ivana_cajina.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#19100e",
+        "foreground": "#c2c7ca",
+        "cursor": "#c2c7ca"
+    },
+    "colors": {
+        "color0": "#19100e",
+        "color1": "#516977",
+        "color2": "#8E6856",
+        "color3": "#BA9372",
+        "color4": "#5C7885",
+        "color5": "#718995",
+        "color6": "#7F95A0",
+        "color7": "#c2c7ca",
+        "color8": "#878b8d",
+        "color9": "#516977",
+        "color10": "#8E6856",
+        "color11": "#BA9372",
+        "color12": "#5C7885",
+        "color13": "#718995",
+        "color14": "#7F95A0",
+        "color15": "#c2c7ca"
+    }
+}

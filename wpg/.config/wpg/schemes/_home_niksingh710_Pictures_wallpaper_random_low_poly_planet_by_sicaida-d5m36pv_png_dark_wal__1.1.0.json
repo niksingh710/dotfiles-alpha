@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/low_poly_planet_by_sicaida-d5m36pv.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0e0e25",
+        "foreground": "#a9afc2",
+        "cursor": "#a9afc2"
+    },
+    "colors": {
+        "color0": "#0e0e25",
+        "color1": "#901844",
+        "color2": "#B01847",
+        "color3": "#A82B49",
+        "color4": "#DE274B",
+        "color5": "#885373",
+        "color6": "#F34D4C",
+        "color7": "#a9afc2",
+        "color8": "#767a87",
+        "color9": "#901844",
+        "color10": "#B01847",
+        "color11": "#A82B49",
+        "color12": "#DE274B",
+        "color13": "#885373",
+        "color14": "#F34D4C",
+        "color15": "#a9afc2"
+    }
+}

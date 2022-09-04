@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/nebula-wallpaper-for-2560x1600-61-700.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#060F1E",
+        "foreground": "#dfcae9",
+        "cursor": "#dfcae9"
+    },
+    "colors": {
+        "color0": "#060F1E",
+        "color1": "#585DA4",
+        "color2": "#6173C7",
+        "color3": "#9671C0",
+        "color4": "#5A80BF",
+        "color5": "#6C8BCF",
+        "color6": "#A29CDF",
+        "color7": "#dfcae9",
+        "color8": "#9c8da3",
+        "color9": "#585DA4",
+        "color10": "#6173C7",
+        "color11": "#9671C0",
+        "color12": "#5A80BF",
+        "color13": "#6C8BCF",
+        "color14": "#A29CDF",
+        "color15": "#dfcae9"
+    }
+}

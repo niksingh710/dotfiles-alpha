@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/mine/night-villa.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#07050C",
+        "foreground": "#d3bbb4",
+        "cursor": "#d3bbb4"
+    },
+    "colors": {
+        "color0": "#07050C",
+        "color1": "#221E42",
+        "color2": "#1E2141",
+        "color3": "#2B2B4C",
+        "color4": "#3D3D61",
+        "color5": "#4E4560",
+        "color6": "#9E583B",
+        "color7": "#d3bbb4",
+        "color8": "#93827d",
+        "color9": "#221E42",
+        "color10": "#1E2141",
+        "color11": "#2B2B4C",
+        "color12": "#3D3D61",
+        "color13": "#4E4560",
+        "color14": "#9E583B",
+        "color15": "#d3bbb4"
+    }
+}

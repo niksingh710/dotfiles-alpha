@@ -1,0 +1,17 @@
+#!/bin/bash
+
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+
+# Set the default layout generator to be rivertile and start it.
+# River will send the process group of the init executable SIGTERM on exit.
+
+if hash kanshi 2>/dev/null; then
+  pgrep -x kanshi &>/dev/null && killall kanshi &>/dev/null
+  [ -f $HOME/.config/kanshi/config ] && kanshi &>/dev/null &
+fi
+pgrep -x stacktile &>/dev/null && killall stacktile &>/dev/null
+GAP=${GAP:-5}
+MAIN_RATIO=${MAIN_RATIO:-0.5}
+riverctl default-layout stacktile
+stacktile --inner-padding $GAP --outer-padding $GAP --primary-ratio $MAIN_RATIO --remainder-sublayout dwindle &>/dev/null &
+

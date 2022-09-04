@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# This will logout to ly 
+# And remove the file to reload the config for river once.
+
+[ -f /tmp/once-river ] && sudo rm /tmp/once-river
+riverctl exit

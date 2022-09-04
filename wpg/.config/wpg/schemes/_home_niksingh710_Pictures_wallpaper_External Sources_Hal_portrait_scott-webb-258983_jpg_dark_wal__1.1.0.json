@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/scott-webb-258983.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0c0709",
+        "foreground": "#dae3ea",
+        "cursor": "#dae3ea"
+    },
+    "colors": {
+        "color0": "#0c0709",
+        "color1": "#8E8092",
+        "color2": "#97A2A9",
+        "color3": "#B0BCD1",
+        "color4": "#A4C8DE",
+        "color5": "#B3C7DC",
+        "color6": "#BCD1E2",
+        "color7": "#dae3ea",
+        "color8": "#989ea3",
+        "color9": "#8E8092",
+        "color10": "#97A2A9",
+        "color11": "#B0BCD1",
+        "color12": "#A4C8DE",
+        "color13": "#B3C7DC",
+        "color14": "#BCD1E2",
+        "color15": "#dae3ea"
+    }
+}

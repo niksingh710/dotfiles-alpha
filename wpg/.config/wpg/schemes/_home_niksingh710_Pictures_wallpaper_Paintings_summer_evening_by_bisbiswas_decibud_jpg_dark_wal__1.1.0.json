@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Paintings/summer_evening_by_bisbiswas_decibud.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#090838",
+        "foreground": "#cbc2d3",
+        "cursor": "#cbc2d3"
+    },
+    "colors": {
+        "color0": "#090838",
+        "color1": "#3950A3",
+        "color2": "#505AA0",
+        "color3": "#345BD1",
+        "color4": "#956F91",
+        "color5": "#3C8FD1",
+        "color6": "#5B94CA",
+        "color7": "#cbc2d3",
+        "color8": "#8e8793",
+        "color9": "#3950A3",
+        "color10": "#505AA0",
+        "color11": "#345BD1",
+        "color12": "#956F91",
+        "color13": "#3C8FD1",
+        "color14": "#5B94CA",
+        "color15": "#cbc2d3"
+    }
+}

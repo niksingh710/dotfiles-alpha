@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Plants/fern_arun_clarke.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0E1617",
+        "foreground": "#c3bab4",
+        "cursor": "#c3bab4"
+    },
+    "colors": {
+        "color0": "#0E1617",
+        "color1": "#4B5352",
+        "color2": "#5F605C",
+        "color3": "#6C726D",
+        "color4": "#8D5437",
+        "color5": "#946B5D",
+        "color6": "#7D817B",
+        "color7": "#c3bab4",
+        "color8": "#88827d",
+        "color9": "#4B5352",
+        "color10": "#5F605C",
+        "color11": "#6C726D",
+        "color12": "#8D5437",
+        "color13": "#946B5D",
+        "color14": "#7D817B",
+        "color15": "#c3bab4"
+    }
+}

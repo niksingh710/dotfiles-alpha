@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/iceland/basalt.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0f0e13",
+        "foreground": "#d4d9d7",
+        "cursor": "#d4d9d7"
+    },
+    "colors": {
+        "color0": "#0f0e13",
+        "color1": "#79817E",
+        "color2": "#777C82",
+        "color3": "#7C8386",
+        "color4": "#899192",
+        "color5": "#9AA4A2",
+        "color6": "#A9B3B0",
+        "color7": "#d4d9d7",
+        "color8": "#949796",
+        "color9": "#79817E",
+        "color10": "#777C82",
+        "color11": "#7C8386",
+        "color12": "#899192",
+        "color13": "#9AA4A2",
+        "color14": "#A9B3B0",
+        "color15": "#d4d9d7"
+    }
+}

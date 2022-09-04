@@ -1,0 +1,2 @@
+#!/bin/bash
+hash wal-telegram 2>/dev/null && wal-telegram --wal -r -g &>/dev/null

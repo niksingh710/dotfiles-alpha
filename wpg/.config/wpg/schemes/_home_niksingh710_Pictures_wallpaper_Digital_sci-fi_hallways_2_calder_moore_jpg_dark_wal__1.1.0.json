@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/sci-fi_hallways_2_calder_moore.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#071216",
+        "foreground": "#deefef",
+        "cursor": "#deefef"
+    },
+    "colors": {
+        "color0": "#071216",
+        "color1": "#49696D",
+        "color2": "#728678",
+        "color3": "#377688",
+        "color4": "#5A93A1",
+        "color5": "#4DACC6",
+        "color6": "#9ADBE2",
+        "color7": "#deefef",
+        "color8": "#9ba7a7",
+        "color9": "#49696D",
+        "color10": "#728678",
+        "color11": "#377688",
+        "color12": "#5A93A1",
+        "color13": "#4DACC6",
+        "color14": "#9ADBE2",
+        "color15": "#deefef"
+    }
+}

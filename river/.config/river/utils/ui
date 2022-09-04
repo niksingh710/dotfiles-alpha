@@ -1,0 +1,11 @@
+#!/bin/bash
+
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+
+focused=${foreground:-"00eeff"}
+focused=`echo $focused | sed 's/#//g'`
+
+riverctl border-width 1
+riverctl border-color-focused 0x${focused}
+riverctl border-color-unfocused 0x000000
+riverctl border-color-urgent 0xff000000

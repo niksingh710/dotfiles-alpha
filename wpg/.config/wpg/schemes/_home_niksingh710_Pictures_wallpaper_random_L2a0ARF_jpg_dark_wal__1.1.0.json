@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/L2a0ARF.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#181312",
+        "foreground": "#cfdcd9",
+        "cursor": "#cfdcd9"
+    },
+    "colors": {
+        "color0": "#181312",
+        "color1": "#758E97",
+        "color2": "#9AA09C",
+        "color3": "#90AFB3",
+        "color4": "#B5BEB4",
+        "color5": "#D4CCB6",
+        "color6": "#A0C5C4",
+        "color7": "#cfdcd9",
+        "color8": "#909a97",
+        "color9": "#758E97",
+        "color10": "#9AA09C",
+        "color11": "#90AFB3",
+        "color12": "#B5BEB4",
+        "color13": "#D4CCB6",
+        "color14": "#A0C5C4",
+        "color15": "#cfdcd9"
+    }
+}

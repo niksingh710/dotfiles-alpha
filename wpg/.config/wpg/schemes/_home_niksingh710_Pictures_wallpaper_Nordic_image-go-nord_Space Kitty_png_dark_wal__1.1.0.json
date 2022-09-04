@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/image-go-nord/Space Kitty.png",
+    "alpha": "80",
+    "special": {
+        "background": "#10151d",
+        "foreground": "#d7d6cf",
+        "cursor": "#d7d6cf"
+    },
+    "colors": {
+        "color0": "#10151d",
+        "color1": "#C79177",
+        "color2": "#5C7594",
+        "color3": "#977B87",
+        "color4": "#6888AD",
+        "color5": "#7DA7C3",
+        "color6": "#A69DA1",
+        "color7": "#d7d6cf",
+        "color8": "#969590",
+        "color9": "#C79177",
+        "color10": "#5C7594",
+        "color11": "#977B87",
+        "color12": "#6888AD",
+        "color13": "#7DA7C3",
+        "color14": "#A69DA1",
+        "color15": "#d7d6cf"
+    }
+}

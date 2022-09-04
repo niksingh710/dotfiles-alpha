@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/thomas-kelley-64329.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#131511",
+        "foreground": "#d4dbd5",
+        "cursor": "#d4dbd5"
+    },
+    "colors": {
+        "color0": "#131511",
+        "color1": "#718771",
+        "color2": "#8A9276",
+        "color3": "#607787",
+        "color4": "#728C92",
+        "color5": "#76C5C6",
+        "color6": "#97A8A0",
+        "color7": "#d4dbd5",
+        "color8": "#949995",
+        "color9": "#718771",
+        "color10": "#8A9276",
+        "color11": "#607787",
+        "color12": "#728C92",
+        "color13": "#76C5C6",
+        "color14": "#97A8A0",
+        "color15": "#d4dbd5"
+    }
+}

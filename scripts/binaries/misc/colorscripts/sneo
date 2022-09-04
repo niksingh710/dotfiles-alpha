@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f "$HOME/Personal/bin/fm6000" ];then
+  $HOME/Personal/bin/fm6000 -r -c random
+else
+  colorscript -r
+fi

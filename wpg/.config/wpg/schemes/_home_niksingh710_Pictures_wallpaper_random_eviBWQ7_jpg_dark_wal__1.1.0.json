@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/eviBWQ7.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0b0a08",
+        "foreground": "#e1deca",
+        "cursor": "#e1deca"
+    },
+    "colors": {
+        "color0": "#0b0a08",
+        "color1": "#394654",
+        "color2": "#60615D",
+        "color3": "#7A7D72",
+        "color4": "#A39765",
+        "color5": "#D1BE72",
+        "color6": "#A0A497",
+        "color7": "#e1deca",
+        "color8": "#9d9b8d",
+        "color9": "#394654",
+        "color10": "#60615D",
+        "color11": "#7A7D72",
+        "color12": "#A39765",
+        "color13": "#D1BE72",
+        "color14": "#A0A497",
+        "color15": "#e1deca"
+    }
+}

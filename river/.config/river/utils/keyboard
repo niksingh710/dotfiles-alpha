@@ -1,0 +1,7 @@
+#!/bin/bash
+
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+
+KEYBOARD_RATE=${KEYBOARD_RATE:-50}
+KEYBOARD_DELAY=${KEYBOARD_DELAY:-300}
+riverctl set-repeat $KEYBOARD_RATE $KEYBOARD_DELAY

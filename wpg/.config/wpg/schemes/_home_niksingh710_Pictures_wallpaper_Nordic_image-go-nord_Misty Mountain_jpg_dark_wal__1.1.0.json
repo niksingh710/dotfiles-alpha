@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/image-go-nord/Misty Mountain.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#111318",
+        "foreground": "#c6cad4",
+        "cursor": "#c6cad4"
+    },
+    "colors": {
+        "color0": "#111318",
+        "color1": "#5E6982",
+        "color2": "#697590",
+        "color3": "#77839D",
+        "color4": "#7D88A2",
+        "color5": "#8B95AC",
+        "color6": "#99A1B6",
+        "color7": "#c6cad4",
+        "color8": "#8a8d94",
+        "color9": "#5E6982",
+        "color10": "#697590",
+        "color11": "#77839D",
+        "color12": "#7D88A2",
+        "color13": "#8B95AC",
+        "color14": "#99A1B6",
+        "color15": "#c6cad4"
+    }
+}

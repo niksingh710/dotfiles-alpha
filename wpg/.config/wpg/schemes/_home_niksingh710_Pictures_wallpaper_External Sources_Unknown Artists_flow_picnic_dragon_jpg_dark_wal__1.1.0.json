@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Unknown Artists/flow_picnic_dragon.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#15151e",
+        "foreground": "#e7ddc8",
+        "cursor": "#e7ddc8"
+    },
+    "colors": {
+        "color0": "#15151e",
+        "color1": "#9D3362",
+        "color2": "#A73864",
+        "color3": "#A15958",
+        "color4": "#DC9B2E",
+        "color5": "#DAA657",
+        "color6": "#CDB159",
+        "color7": "#e7ddc8",
+        "color8": "#a19a8c",
+        "color9": "#9D3362",
+        "color10": "#A73864",
+        "color11": "#A15958",
+        "color12": "#DC9B2E",
+        "color13": "#DAA657",
+        "color14": "#CDB159",
+        "color15": "#e7ddc8"
+    }
+}

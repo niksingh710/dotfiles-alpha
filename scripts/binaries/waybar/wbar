@@ -1,0 +1,6 @@
+#!/bin/bash
+# This will run waybar if present and restart if already running
+
+hash waybar 2>/dev/null || exit
+pgrep -x waybar &>/dev/null && killall -q waybar
+waybar &>/dev/null &

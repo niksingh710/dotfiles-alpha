@@ -1,0 +1,17 @@
+#!/bin/sh                                                                                         
+
+# This script is created by `youpilai` river irc
+ 
+ is_monocle="/tmp/river-monocle"
+ 
+ if [ -f "$is_monocle" ]; then
+     # riverctl border-width 2 ## don't work by tag
+     riverctl send-layout-cmd stacktile "all_primary false"
+     riverctl send-layout-cmd stacktile "primary_sublayout rows"
+     rm -f "$is_monocle"
+ else
+     # riverctl border-width 0
+     riverctl send-layout-cmd stacktile "all_primary true"
+     riverctl send-layout-cmd stacktile "primary_sublayout full"
+     touch "$is_monocle"
+ fi

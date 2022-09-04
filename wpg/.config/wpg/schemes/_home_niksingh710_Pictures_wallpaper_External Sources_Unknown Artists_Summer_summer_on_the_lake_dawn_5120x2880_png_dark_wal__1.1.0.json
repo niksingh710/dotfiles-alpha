@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Unknown Artists/Summer/summer_on_the_lake_dawn_5120x2880.png",
+    "alpha": "80",
+    "special": {
+        "background": "#2f2435",
+        "foreground": "#daddf1",
+        "cursor": "#daddf1"
+    },
+    "colors": {
+        "color0": "#2f2435",
+        "color1": "#B2A9B8",
+        "color2": "#EAC5A6",
+        "color3": "#F6CEBC",
+        "color4": "#DAD5DC",
+        "color5": "#F8D8CA",
+        "color6": "#FAE2D7",
+        "color7": "#daddf1",
+        "color8": "#989aa8",
+        "color9": "#B2A9B8",
+        "color10": "#EAC5A6",
+        "color11": "#F6CEBC",
+        "color12": "#DAD5DC",
+        "color13": "#F8D8CA",
+        "color14": "#FAE2D7",
+        "color15": "#daddf1"
+    }
+}

@@ -1,0 +1,20 @@
+#!/bin/bash
+TIME=1000
+[ -f /tmp/brightid ] && ID=`cat /tmp/brightid`
+ID=${ID:-1234}
+function send_notification() {
+    brightness=$(light -G)
+	brightness=${brightness%.*}
+	notify-send -a "Brightness" -r "$ID" -h int:value:"$brightness" "Brightness: ${brightness}%" -p > /tmp/brightid
+}
+
+case $1 in
+up)
+	light -A 5 
+	send_notification $1
+	;;
+down)
+	light -U 5
+	send_notification $1
+	;;
+esac

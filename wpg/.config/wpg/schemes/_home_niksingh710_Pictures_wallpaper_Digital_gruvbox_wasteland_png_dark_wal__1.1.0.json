@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/gruvbox_wasteland.png",
+    "alpha": "80",
+    "special": {
+        "background": "#040303",
+        "foreground": "#ccbaad",
+        "cursor": "#ccbaad"
+    },
+    "colors": {
+        "color0": "#040303",
+        "color1": "#6C5747",
+        "color2": "#7B6350",
+        "color3": "#8B6F59",
+        "color4": "#9A7B63",
+        "color5": "#A07F66",
+        "color6": "#9F8067",
+        "color7": "#ccbaad",
+        "color8": "#8e8279",
+        "color9": "#6C5747",
+        "color10": "#7B6350",
+        "color11": "#8B6F59",
+        "color12": "#9A7B63",
+        "color13": "#A07F66",
+        "color14": "#9F8067",
+        "color15": "#ccbaad"
+    }
+}

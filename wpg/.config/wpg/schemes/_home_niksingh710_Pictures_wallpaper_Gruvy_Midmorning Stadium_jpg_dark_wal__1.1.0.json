@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Gruvy/Midmorning Stadium.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#151212",
+        "foreground": "#e4d8d5",
+        "cursor": "#e4d8d5"
+    },
+    "colors": {
+        "color0": "#151212",
+        "color1": "#A6653F",
+        "color2": "#967060",
+        "color3": "#C58E73",
+        "color4": "#7D7A86",
+        "color5": "#A99B9F",
+        "color6": "#D1B0A6",
+        "color7": "#e4d8d5",
+        "color8": "#9f9795",
+        "color9": "#A6653F",
+        "color10": "#967060",
+        "color11": "#C58E73",
+        "color12": "#7D7A86",
+        "color13": "#A99B9F",
+        "color14": "#D1B0A6",
+        "color15": "#e4d8d5"
+    }
+}

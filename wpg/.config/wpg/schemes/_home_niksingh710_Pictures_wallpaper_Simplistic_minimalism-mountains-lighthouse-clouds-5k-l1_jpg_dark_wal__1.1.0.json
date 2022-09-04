@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Simplistic/minimalism-mountains-lighthouse-clouds-5k-l1.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0d1f25",
+        "foreground": "#eae9d0",
+        "cursor": "#eae9d0"
+    },
+    "colors": {
+        "color0": "#0d1f25",
+        "color1": "#487079",
+        "color2": "#68867D",
+        "color3": "#2C7687",
+        "color4": "#507883",
+        "color5": "#298EA3",
+        "color6": "#608B8E",
+        "color7": "#eae9d0",
+        "color8": "#a3a391",
+        "color9": "#487079",
+        "color10": "#68867D",
+        "color11": "#2C7687",
+        "color12": "#507883",
+        "color13": "#298EA3",
+        "color14": "#608B8E",
+        "color15": "#eae9d0"
+    }
+}

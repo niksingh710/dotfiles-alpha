@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/unknown/mysterious_light_in_pine_trees_nagy_arnold.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#020C0F",
+        "foreground": "#bfada9",
+        "cursor": "#bfada9"
+    },
+    "colors": {
+        "color0": "#020C0F",
+        "color1": "#094359",
+        "color2": "#26425C",
+        "color3": "#0F4964",
+        "color4": "#264967",
+        "color5": "#36607E",
+        "color6": "#5D515C",
+        "color7": "#bfada9",
+        "color8": "#857976",
+        "color9": "#094359",
+        "color10": "#26425C",
+        "color11": "#0F4964",
+        "color12": "#264967",
+        "color13": "#36607E",
+        "color14": "#5D515C",
+        "color15": "#bfada9"
+    }
+}

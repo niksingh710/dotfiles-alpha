@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/HD/Travelled Too Far.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0F0D0F",
+        "foreground": "#bfafbc",
+        "cursor": "#bfafbc"
+    },
+    "colors": {
+        "color0": "#0F0D0F",
+        "color1": "#605152",
+        "color2": "#B3581E",
+        "color3": "#9C5E20",
+        "color4": "#9C6B56",
+        "color5": "#C89745",
+        "color6": "#E69A61",
+        "color7": "#bfafbc",
+        "color8": "#857a83",
+        "color9": "#605152",
+        "color10": "#B3581E",
+        "color11": "#9C5E20",
+        "color12": "#9C6B56",
+        "color13": "#C89745",
+        "color14": "#E69A61",
+        "color15": "#bfafbc"
+    }
+}

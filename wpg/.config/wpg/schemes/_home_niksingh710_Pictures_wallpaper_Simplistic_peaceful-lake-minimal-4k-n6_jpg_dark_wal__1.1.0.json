@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Simplistic/peaceful-lake-minimal-4k-n6.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0A0E1E",
+        "foreground": "#f3d2d9",
+        "cursor": "#f3d2d9"
+    },
+    "colors": {
+        "color0": "#0A0E1E",
+        "color1": "#AA6C8E",
+        "color2": "#D76796",
+        "color3": "#B18A9E",
+        "color4": "#D390AD",
+        "color5": "#EF91AC",
+        "color6": "#FAADB9",
+        "color7": "#f3d2d9",
+        "color8": "#aa9397",
+        "color9": "#AA6C8E",
+        "color10": "#D76796",
+        "color11": "#B18A9E",
+        "color12": "#D390AD",
+        "color13": "#EF91AC",
+        "color14": "#FAADB9",
+        "color15": "#f3d2d9"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/01151_inthedeep_2560x1600.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#010101",
+        "foreground": "#84a5c1",
+        "cursor": "#84a5c1"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#5A2A54",
+        "color2": "#174773",
+        "color3": "#65464F",
+        "color4": "#9E5210",
+        "color5": "#A64A30",
+        "color6": "#A37767",
+        "color7": "#84a5c1",
+        "color8": "#5c7387",
+        "color9": "#5A2A54",
+        "color10": "#174773",
+        "color11": "#65464F",
+        "color12": "#9E5210",
+        "color13": "#A64A30",
+        "color14": "#A37767",
+        "color15": "#84a5c1"
+    }
+}

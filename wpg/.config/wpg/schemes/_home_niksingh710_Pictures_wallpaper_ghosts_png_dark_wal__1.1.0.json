@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/ghosts.png",
+    "alpha": "80",
+    "special": {
+        "background": "#191c22",
+        "foreground": "#e4e5e7",
+        "cursor": "#e4e5e7"
+    },
+    "colors": {
+        "color0": "#191c22",
+        "color1": "#7FA0C0",
+        "color2": "#95B59B",
+        "color3": "#A3BE8C",
+        "color4": "#B9BBA6",
+        "color5": "#83A2C2",
+        "color6": "#A3B9D1",
+        "color7": "#e4e5e7",
+        "color8": "#9fa0a1",
+        "color9": "#7FA0C0",
+        "color10": "#95B59B",
+        "color11": "#A3BE8C",
+        "color12": "#B9BBA6",
+        "color13": "#83A2C2",
+        "color14": "#A3B9D1",
+        "color15": "#e4e5e7"
+    }
+}

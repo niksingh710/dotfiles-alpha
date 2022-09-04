@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/Kraken.png",
+    "alpha": "80",
+    "special": {
+        "background": "#1b1b22",
+        "foreground": "#dea6de",
+        "cursor": "#dea6de"
+    },
+    "colors": {
+        "color0": "#1b1b22",
+        "color1": "#1C9C65",
+        "color2": "#BE9E4A",
+        "color3": "#585E8A",
+        "color4": "#73568F",
+        "color5": "#4D758D",
+        "color6": "#97539E",
+        "color7": "#dea6de",
+        "color8": "#9b749b",
+        "color9": "#1C9C65",
+        "color10": "#BE9E4A",
+        "color11": "#585E8A",
+        "color12": "#73568F",
+        "color13": "#4D758D",
+        "color14": "#97539E",
+        "color15": "#dea6de"
+    }
+}

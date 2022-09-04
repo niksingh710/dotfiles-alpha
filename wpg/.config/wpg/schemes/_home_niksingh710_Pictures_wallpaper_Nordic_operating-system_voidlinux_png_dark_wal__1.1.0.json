@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/operating-system/voidlinux.png",
+    "alpha": "80",
+    "special": {
+        "background": "#1b1e25",
+        "foreground": "#e3e6eb",
+        "cursor": "#e3e6eb"
+    },
+    "colors": {
+        "color0": "#1b1e25",
+        "color1": "#888E99",
+        "color2": "#939AA6",
+        "color3": "#A4ABB6",
+        "color4": "#B6BCC7",
+        "color5": "#BCC2CE",
+        "color6": "#C7CDD8",
+        "color7": "#e3e6eb",
+        "color8": "#9ea1a4",
+        "color9": "#888E99",
+        "color10": "#939AA6",
+        "color11": "#A4ABB6",
+        "color12": "#B6BCC7",
+        "color13": "#BCC2CE",
+        "color14": "#C7CDD8",
+        "color15": "#e3e6eb"
+    }
+}

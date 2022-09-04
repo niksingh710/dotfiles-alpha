@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/HD/time_passing_denis_lomme.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#040404",
+        "foreground": "#cecece",
+        "cursor": "#cecece"
+    },
+    "colors": {
+        "color0": "#040404",
+        "color1": "#434343",
+        "color2": "#4B4B4B",
+        "color3": "#575757",
+        "color4": "#676767",
+        "color5": "#777777",
+        "color6": "#8E8E8E",
+        "color7": "#cecece",
+        "color8": "#909090",
+        "color9": "#434343",
+        "color10": "#4B4B4B",
+        "color11": "#575757",
+        "color12": "#676767",
+        "color13": "#777777",
+        "color14": "#8E8E8E",
+        "color15": "#cecece"
+    }
+}

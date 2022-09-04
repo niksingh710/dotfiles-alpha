@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/firewatch.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0F1E25",
+        "foreground": "#dbeabf",
+        "cursor": "#dbeabf"
+    },
+    "colors": {
+        "color0": "#0F1E25",
+        "color1": "#3F835C",
+        "color2": "#54986C",
+        "color3": "#5CA174",
+        "color4": "#7AB286",
+        "color5": "#A7CE88",
+        "color6": "#C3DD8D",
+        "color7": "#dbeabf",
+        "color8": "#99a385",
+        "color9": "#3F835C",
+        "color10": "#54986C",
+        "color11": "#5CA174",
+        "color12": "#7AB286",
+        "color13": "#A7CE88",
+        "color14": "#C3DD8D",
+        "color15": "#dbeabf"
+    }
+}

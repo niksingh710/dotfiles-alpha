@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/unknown/aerial_trees_armin_djuhic.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#050B13",
+        "foreground": "#d1ddeb",
+        "cursor": "#d1ddeb"
+    },
+    "colors": {
+        "color0": "#050B13",
+        "color1": "#6D8FB3",
+        "color2": "#7C9EC3",
+        "color3": "#839CBC",
+        "color4": "#91AED0",
+        "color5": "#A0BADA",
+        "color6": "#A8C1DE",
+        "color7": "#d1ddeb",
+        "color8": "#929aa4",
+        "color9": "#6D8FB3",
+        "color10": "#7C9EC3",
+        "color11": "#839CBC",
+        "color12": "#91AED0",
+        "color13": "#A0BADA",
+        "color14": "#A8C1DE",
+        "color15": "#d1ddeb"
+    }
+}

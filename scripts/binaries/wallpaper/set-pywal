@@ -1,0 +1,28 @@
+#!/bin/bash
+# This set color to whole system
+
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+
+if [ ! -f /tmp/currwal ]; then
+  notify "Set wallpaper using setwal command"
+  exit
+fi
+
+wallpaper=$(cat /tmp/currwal)
+py-wal(){
+  notify "Setting up:" "Going to generate color based on the upcoming wallpaper.This may take a while. Config will only be refreshed after u see wallpaper set notification" -p -t 0 > /tmp/wal-not
+
+  if hash wpg 2>/dev/null;then
+    wpg -ns "$wallpaper" --alpha ${WAL_ALPHA:-80} 
+  fi
+  notify -i "$wallpaper" "is used to generate colorscheme" -t 3000 -r `cat /tmp/wal-not`
+}
+
+after-py-wal(){
+    [ -f $HOME/binaries/bin/wbar ] && $HOME/binaries/bin/wbar &>/dev/null 
+    hash mako-reload 2>/dev/null && mako-reload 
+
+    hash wal-telegram 2>/dev/null && wal-telegram --wal -r -g &>/dev/null
+    hash pywal-discord 2>/dev/null && pywal-discord -d &>/dev/null 
+}
+py-wal &>/dev/null && after-py-wal

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Gruvy/Gruvy Japan.png",
+    "alpha": "80",
+    "special": {
+        "background": "#00001B",
+        "foreground": "#e29cc1",
+        "cursor": "#e29cc1"
+    },
+    "colors": {
+        "color0": "#00001B",
+        "color1": "#B32071",
+        "color2": "#99A06F",
+        "color3": "#1C498D",
+        "color4": "#A50292",
+        "color5": "#FC0A88",
+        "color6": "#F423A4",
+        "color7": "#e29cc1",
+        "color8": "#9e6d87",
+        "color9": "#B32071",
+        "color10": "#99A06F",
+        "color11": "#1C498D",
+        "color12": "#A50292",
+        "color13": "#FC0A88",
+        "color14": "#F423A4",
+        "color15": "#e29cc1"
+    }
+}

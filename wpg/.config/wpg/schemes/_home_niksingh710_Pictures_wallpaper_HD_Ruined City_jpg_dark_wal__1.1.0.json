@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/HD/Ruined City.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0B1012",
+        "foreground": "#c4c3c4",
+        "cursor": "#c4c3c4"
+    },
+    "colors": {
+        "color0": "#0B1012",
+        "color1": "#315260",
+        "color2": "#4B5051",
+        "color3": "#63666A",
+        "color4": "#8A7E7A",
+        "color5": "#6D7687",
+        "color6": "#768991",
+        "color7": "#c4c3c4",
+        "color8": "#898889",
+        "color9": "#315260",
+        "color10": "#4B5051",
+        "color11": "#63666A",
+        "color12": "#8A7E7A",
+        "color13": "#6D7687",
+        "color14": "#768991",
+        "color15": "#c4c3c4"
+    }
+}

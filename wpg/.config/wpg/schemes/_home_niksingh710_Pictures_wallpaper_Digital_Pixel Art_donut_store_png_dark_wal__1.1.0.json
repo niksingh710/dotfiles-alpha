@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/Pixel Art/donut_store.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0b0c09",
+        "foreground": "#bba49c",
+        "cursor": "#bba49c"
+    },
+    "colors": {
+        "color0": "#0b0c09",
+        "color1": "#673A2C",
+        "color2": "#55423C",
+        "color3": "#754637",
+        "color4": "#38434A",
+        "color5": "#61514A",
+        "color6": "#8B4F3C",
+        "color7": "#bba49c",
+        "color8": "#82726d",
+        "color9": "#673A2C",
+        "color10": "#55423C",
+        "color11": "#754637",
+        "color12": "#38434A",
+        "color13": "#61514A",
+        "color14": "#8B4F3C",
+        "color15": "#bba49c"
+    }
+}

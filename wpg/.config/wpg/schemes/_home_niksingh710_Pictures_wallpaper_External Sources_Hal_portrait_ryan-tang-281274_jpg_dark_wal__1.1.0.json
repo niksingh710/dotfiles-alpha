@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/ryan-tang-281274.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#01060B",
+        "foreground": "#e3e3e8",
+        "cursor": "#e3e3e8"
+    },
+    "colors": {
+        "color0": "#01060B",
+        "color1": "#B43159",
+        "color2": "#47A267",
+        "color3": "#266C94",
+        "color4": "#C8569A",
+        "color5": "#5699B5",
+        "color6": "#ADB1C6",
+        "color7": "#e3e3e8",
+        "color8": "#9e9ea2",
+        "color9": "#B43159",
+        "color10": "#47A267",
+        "color11": "#266C94",
+        "color12": "#C8569A",
+        "color13": "#5699B5",
+        "color14": "#ADB1C6",
+        "color15": "#e3e3e8"
+    }
+}

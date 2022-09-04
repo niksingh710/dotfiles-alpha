@@ -1,0 +1,145 @@
+[
+{
+    "layer": "top",
+    "position": "top",
+    "spacing": 4,
+    "modules-left": [],
+    "modules-center": ["river/tags"],
+    "modules-right": ["custom/weather","custom/update","custom/uptimed","custom/recorder","custom/vpn","custom/hotspot"],
+    "custom/weather": {
+        "format": "{}",
+        "tooltip": true,
+        "interval": 3600,
+        "exec": "$HOME/binaries/waybar/waybar-wttr",
+        "return-type": "json"
+    },
+    "custom/hotspot":{
+        "format":"  ",
+        "exec": "echo '{\"class\": \"connected\"}'",
+        "exec-if": "pgrep -x create_ap &>/dev/null",
+        "interval":1,
+        "on-click": "sudo killall create_ap",
+      },
+    "custom/vpn": {
+    "format": "VPN 🔒",
+    "exec": "echo '{\"class\": \"connected\"}'",
+    "exec-if": "test -d /proc/sys/net/ipv4/conf/tun0",
+    "return-type": "json",
+    "interval": 1,
+},
+    "custom/recorder":{
+        "format": "🔴",
+        "exec":"echo '{\"class\": \"recording\"}'",
+        "exec-if":"pgrep -x wf-recorder",
+        "return-type":"json",
+        "interval":1,
+     },
+      "custom/uptimed": {
+            "format": "",
+            "interval": 3600,                     
+            "exec": "$HOME/binaries/waybar/waybar-arch-checkupdate > /tmp/waybarup",    
+            "on-click": "$HOME/binaries/waybar/waybar-arch-checkupdate > /tmp/waybarup",
+            "exec-if": "test -e $HOME/binaries/waybar/waybar-arch-checkupdate",  
+           },
+     "custom/update": {
+    "format": "{} ",
+    "interval": 1,
+    "exec": "/usr/bin/cat /tmp/waybarup",       
+    "exec-if": "test -e /tmp/waybarup",        
+        "return-type": "json"
+},
+     },
+{
+    "layer": "top",
+    "position": "bottom",
+    "spacing": 4,
+    "modules-left": ["battery","backlight","pulseaudio","pulseaudio#mic","memory","cpu","network","custom/monocle"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray","idle_inhibitor"],
+
+  "memory":{
+      "format":"{used:0.1f} Gi 🧠",
+    },
+  "cpu":{
+      "format":"{usage}% {icon}"
+    },
+  "tray":{
+      "icon-size": 16,
+      "spacing": 10,
+    },
+    "backlight":{
+               "device": "intel_backlight",
+               "format": "{percent}% {icon}",
+               "format-icons": ["☁️","⛅","🌤️", "🌞"],
+               "on-scroll-up": "light -U 5",
+               "on-scroll-down": "light -A 5",
+      },
+   "clock": {
+        "interval":1,
+        "format": "{:%a, %d. %b  %H:%M:%S}",
+        "tooltip-format": "<big>{:%Y %B \t week: %V }</big>\n<tt>{calendar}</tt>",
+    },
+    "pulseaudio": {
+                "format": "{volume}% {icon}",
+                "format-bluetooth": "{volume}% ",
+                "format-muted": "🔇",
+                "format-source-muted": "",
+                "format-icons": {
+                     "headphones": "",
+                     "handsfree": "",
+                     "headset": "",
+                     "phone": "",
+                     "portable": "",
+                     "car": "",
+                     "default": ["🔈", "🔉","🔊"]
+                },
+                "on-click": "pavucontrol"
+                },
+          "pulseaudio#mic": {
+                          "format": "{format_source}",
+                          "format-source": "{volume}%  ",
+                          "format-source-muted": "",
+                "on-click": "pactl set-source-mute 0 toggle",
+                "on-scroll-up": "pactl set-source-volume 0 +1%",
+                "on-scroll-down": "pactl set-source-volume 0 -1%",
+           },
+           "battery": {
+    "interval": 60,
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""],
+    "max-length": 25
+},
+"idle_inhibitor": {
+      "format": "{icon}",
+      "format-icons": {
+          "activated": "😃",
+          "deactivated": "😴"
+      },
+ },
+    "network": {
+                "format": "{ifname}",
+                "format-wifi": "({signalStrength}%) ",
+                "format-ethernet": " ",
+                "format-disconnected": "", //An empty format will hide the module.
+                "tooltip-format": "{ifname}",
+                "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+                "tooltip-format-ethernet": "{ifname} ",
+                "tooltip-format-disconnected": "Disconnected",
+                "max-length": 50,
+                "on-click": "networkmanager_dmenu"
+           },
+"custom/monocle": {
+    "format": "Ⓜ️",
+    "interval": 1,                 
+    "exec": "echo 'M'",       
+    "exec-if": "[ -f /tmp/river-monocle ]",
+    "on-click": "$HOME/binaries/bin/monocle-river", 
+},
+
+  },
+    
+]

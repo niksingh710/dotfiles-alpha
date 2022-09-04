@@ -1,0 +1,30 @@
+#!/bin/bash
+TIME=1000
+[ -f /tmp/volnotid ] && ID=`cat /tmp/volnotid`
+ID=${ID:-1234}
+function send_notification() {
+	volume=$(pamixer --get-volume)
+	  notify-send -a "Volume" -u low -r "$ID" -h int:value:"$volume" "Volume: ${volume}%" -p -t 1000 > /tmp/volnotid
+}
+
+case $1 in
+up)
+	# Set the volume on (if it was muted)
+	pamixer -u
+	pamixer -i 5 
+	send_notification $1
+	;;
+down)
+	pamixer -u
+	pamixer -d 5
+	send_notification $1
+	;;
+mute)
+	pamixer -t
+	if $(pamixer --get-mute); then
+		notify-send -i volume-mute -a "Volume" -t $TIME -r 9993 -u low "Muted" -r "$ID"
+	else
+		send_notification up
+	fi
+	;;
+esac

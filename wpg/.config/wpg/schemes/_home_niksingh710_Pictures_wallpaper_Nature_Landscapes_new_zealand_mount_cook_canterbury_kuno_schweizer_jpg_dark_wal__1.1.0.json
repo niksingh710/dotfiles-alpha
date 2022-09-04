@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/new_zealand/mount_cook_canterbury_kuno_schweizer.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0b1015",
+        "foreground": "#c5c2c5",
+        "cursor": "#c5c2c5"
+    },
+    "colors": {
+        "color0": "#0b1015",
+        "color1": "#A16E6B",
+        "color2": "#3C6983",
+        "color3": "#566E87",
+        "color4": "#6A798B",
+        "color5": "#74859B",
+        "color6": "#79A4C3",
+        "color7": "#c5c2c5",
+        "color8": "#898789",
+        "color9": "#A16E6B",
+        "color10": "#3C6983",
+        "color11": "#566E87",
+        "color12": "#6A798B",
+        "color13": "#74859B",
+        "color14": "#79A4C3",
+        "color15": "#c5c2c5"
+    }
+}

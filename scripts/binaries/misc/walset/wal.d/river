@@ -1,0 +1,11 @@
+#!/bin/bash
+
+RBCOLOR="${RBCOLOR:-000000}"
+foreground="#ffffff"
+
+[ -f $HOME/.cache/wal/colors.sh ] && . $HOME/.cache/wal/colors.sh
+BFCOLOR=$(echo $foreground | sed 's/#//g')
+RBFCOLOR="${RBFCOLOR:-$BFCOLOR}"
+
+riverctl border-color-focused 0x$RBFCOLOR
+riverctl border-color-unfocused 0x$RBCOLOR

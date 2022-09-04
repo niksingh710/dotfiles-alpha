@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/CEtW7iv.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0c090f",
+        "foreground": "#bcb3c0",
+        "cursor": "#bcb3c0"
+    },
+    "colors": {
+        "color0": "#0c090f",
+        "color1": "#6B382E",
+        "color2": "#73413E",
+        "color3": "#9C5032",
+        "color4": "#A05B4B",
+        "color5": "#C26D40",
+        "color6": "#E59F5B",
+        "color7": "#bcb3c0",
+        "color8": "#837d86",
+        "color9": "#6B382E",
+        "color10": "#73413E",
+        "color11": "#9C5032",
+        "color12": "#A05B4B",
+        "color13": "#C26D40",
+        "color14": "#E59F5B",
+        "color15": "#bcb3c0"
+    }
+}

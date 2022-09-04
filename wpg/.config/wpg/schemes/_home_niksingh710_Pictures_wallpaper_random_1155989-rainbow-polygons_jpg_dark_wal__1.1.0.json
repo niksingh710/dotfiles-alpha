@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/1155989-rainbow-polygons.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#18163c",
+        "foreground": "#a8cde3",
+        "cursor": "#a8cde3"
+    },
+    "colors": {
+        "color0": "#18163c",
+        "color1": "#E4DB56",
+        "color2": "#5A289F",
+        "color3": "#3057A4",
+        "color4": "#4348B8",
+        "color5": "#AB46B6",
+        "color6": "#66B4B6",
+        "color7": "#a8cde3",
+        "color8": "#758f9e",
+        "color9": "#E4DB56",
+        "color10": "#5A289F",
+        "color11": "#3057A4",
+        "color12": "#4348B8",
+        "color13": "#AB46B6",
+        "color14": "#66B4B6",
+        "color15": "#a8cde3"
+    }
+}

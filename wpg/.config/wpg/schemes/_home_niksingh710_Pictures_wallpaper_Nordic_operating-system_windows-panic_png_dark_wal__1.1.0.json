@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/operating-system/windows-panic.png",
+    "alpha": "80",
+    "special": {
+        "background": "#1a1e25",
+        "foreground": "#dddfe2",
+        "cursor": "#dddfe2"
+    },
+    "colors": {
+        "color0": "#1a1e25",
+        "color1": "#7B828D",
+        "color2": "#898F98",
+        "color3": "#989EA6",
+        "color4": "#ABAFB6",
+        "color5": "#B8BCC2",
+        "color6": "#BDC2C8",
+        "color7": "#dddfe2",
+        "color8": "#9a9c9e",
+        "color9": "#7B828D",
+        "color10": "#898F98",
+        "color11": "#989EA6",
+        "color12": "#ABAFB6",
+        "color13": "#B8BCC2",
+        "color14": "#BDC2C8",
+        "color15": "#dddfe2"
+    }
+}

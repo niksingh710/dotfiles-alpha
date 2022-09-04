@@ -1,0 +1,40 @@
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export EDITOR=$VISUAL
+export BAT_THEME="TwoDark"
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export HISTFILE="$HOME/.shellhist"
+export ZVM_VI_EDITOR=$VISUAL
+export GIT_EDITOR=$VISUAL
+
+# setting editor
+if hash vim 2>/dev/null;then
+  export VISUAL='vim'
+  if hash nvim 2>/dev/null;then
+    export VISUAL='nvim'
+    if hash lvim 2>/dev/null;then
+      export VISUAL='lvim'
+    fi
+  fi
+fi
+
+
+#FZF
+export FZF_CTRL_T_COMMAND="find ./ -type f"
+hash fd 2>/dev/null && export FZF_CTRL_T_COMMAND="fd --hidden -tf"
+
+if hash pistol 2>/dev/null;then
+      export PISTOL_CHROMA_FORMATTER=terminal16m
+      export FZF_CTRL_T_OPTS="--bind=ctrl-space:select --preview='pistol -c $HOME/.config/pistol/pistol.conf {}' --height=60%"
+      export FZF_ALT_C_OPTS="--bind=ctrl-space:select --preview='pistol -c $HOME/.config/pistol/pistol.conf {}' --height=60%"
+      export _ZO_FZF_OPTS="--preview 'pistol -c $HOME/.config/pistol/pistol.conf {-1}' --height=30% --layout=reverse "
+else
+if hash exa 2>/dev/null;then
+      export _ZO_FZF_OPTS="--preview 'exa -ahFT -L=1 --color=auto --icons --sort=size --group-directories-first {-1}' --height=30% --layout=reverse "
+      export FZF_ALT_C_OPTS="--preview 'exa -ahFT -L=1 --color=auto --icons --sort=size --group-directories-first {-1}' --height=30% --layout=reverse "
+fi
+if hash bat 2>/dev/null;then
+      export FZF_CTRL_T_OPTS="--bind=ctrl-space:select --preview 'bat -p --color=always {}' --height=30% --layout=reverse "
+else
+      export FZF_CTRL_T_OPTS="--bind=ctrl-space:select --preview 'cat {}' --height=30% --layout=reverse "
+fi
+fi

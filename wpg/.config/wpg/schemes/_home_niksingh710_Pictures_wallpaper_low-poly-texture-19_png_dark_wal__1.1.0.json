@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/low-poly-texture-19.png",
+    "alpha": "80",
+    "special": {
+        "background": "#151223",
+        "foreground": "#eadab0",
+        "cursor": "#eadab0"
+    },
+    "colors": {
+        "color0": "#151223",
+        "color1": "#A63741",
+        "color2": "#9D564F",
+        "color3": "#E15F4A",
+        "color4": "#7D8071",
+        "color5": "#A29270",
+        "color6": "#EA9C5C",
+        "color7": "#eadab0",
+        "color8": "#a3987b",
+        "color9": "#A63741",
+        "color10": "#9D564F",
+        "color11": "#E15F4A",
+        "color12": "#7D8071",
+        "color13": "#A29270",
+        "color14": "#EA9C5C",
+        "color15": "#eadab0"
+    }
+}

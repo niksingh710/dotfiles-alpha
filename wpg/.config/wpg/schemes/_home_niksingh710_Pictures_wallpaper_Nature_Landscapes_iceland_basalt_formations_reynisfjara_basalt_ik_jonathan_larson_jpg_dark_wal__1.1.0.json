@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/iceland/basalt_formations_reynisfjara_basalt_ik_jonathan_larson.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0d0e0d",
+        "foreground": "#d7d6d4",
+        "cursor": "#d7d6d4"
+    },
+    "colors": {
+        "color0": "#0d0e0d",
+        "color1": "#918B72",
+        "color2": "#747B84",
+        "color3": "#7B838C",
+        "color4": "#8D8E8F",
+        "color5": "#A1A09D",
+        "color6": "#AEAEAF",
+        "color7": "#d7d6d4",
+        "color8": "#969594",
+        "color9": "#918B72",
+        "color10": "#747B84",
+        "color11": "#7B838C",
+        "color12": "#8D8E8F",
+        "color13": "#A1A09D",
+        "color14": "#AEAEAF",
+        "color15": "#d7d6d4"
+    }
+}

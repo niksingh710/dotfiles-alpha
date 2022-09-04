@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/mine/xYVxmDx - Imgur.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#110d17",
+        "foreground": "#9fd2c6",
+        "cursor": "#9fd2c6"
+    },
+    "colors": {
+        "color0": "#110d17",
+        "color1": "#2C6D71",
+        "color2": "#4A5D60",
+        "color3": "#408B77",
+        "color4": "#267984",
+        "color5": "#2C9190",
+        "color6": "#2FA6A2",
+        "color7": "#9fd2c6",
+        "color8": "#6f938a",
+        "color9": "#2C6D71",
+        "color10": "#4A5D60",
+        "color11": "#408B77",
+        "color12": "#267984",
+        "color13": "#2C9190",
+        "color14": "#2FA6A2",
+        "color15": "#9fd2c6"
+    }
+}

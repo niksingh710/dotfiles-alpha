@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/triangular-grads-wallpaper-for-1920x1080-63-701.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#242015",
+        "foreground": "#c7e1f2",
+        "cursor": "#c7e1f2"
+    },
+    "colors": {
+        "color0": "#242015",
+        "color1": "#5FA5EC",
+        "color2": "#43BCE9",
+        "color3": "#EA9CA4",
+        "color4": "#D4D8A5",
+        "color5": "#9BA0EF",
+        "color6": "#E8A6DA",
+        "color7": "#c7e1f2",
+        "color8": "#8b9da9",
+        "color9": "#5FA5EC",
+        "color10": "#43BCE9",
+        "color11": "#EA9CA4",
+        "color12": "#D4D8A5",
+        "color13": "#9BA0EF",
+        "color14": "#E8A6DA",
+        "color15": "#c7e1f2"
+    }
+}

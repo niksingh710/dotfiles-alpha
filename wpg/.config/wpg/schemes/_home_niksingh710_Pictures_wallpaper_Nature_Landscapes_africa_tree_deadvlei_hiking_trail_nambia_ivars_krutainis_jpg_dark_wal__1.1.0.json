@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/africa/tree_deadvlei_hiking_trail_nambia_ivars_krutainis.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#402b20",
+        "foreground": "#dfdedd",
+        "cursor": "#dfdedd"
+    },
+    "colors": {
+        "color0": "#402b20",
+        "color1": "#C8AE98",
+        "color2": "#D0BBA7",
+        "color3": "#D8C7B6",
+        "color4": "#E1CFBD",
+        "color5": "#B5BAC3",
+        "color6": "#BDC2CA",
+        "color7": "#dfdedd",
+        "color8": "#9c9b9a",
+        "color9": "#C8AE98",
+        "color10": "#D0BBA7",
+        "color11": "#D8C7B6",
+        "color12": "#E1CFBD",
+        "color13": "#B5BAC3",
+        "color14": "#BDC2CA",
+        "color15": "#dfdedd"
+    }
+}

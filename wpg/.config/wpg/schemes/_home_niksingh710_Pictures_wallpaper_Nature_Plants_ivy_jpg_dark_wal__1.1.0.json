@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Plants/ivy.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#171d12",
+        "foreground": "#a8baab",
+        "cursor": "#a8baab"
+    },
+    "colors": {
+        "color0": "#171d12",
+        "color1": "#3D6445",
+        "color2": "#51534A",
+        "color3": "#556750",
+        "color4": "#626659",
+        "color5": "#5D7262",
+        "color6": "#59803D",
+        "color7": "#a8baab",
+        "color8": "#758277",
+        "color9": "#3D6445",
+        "color10": "#51534A",
+        "color11": "#556750",
+        "color12": "#626659",
+        "color13": "#5D7262",
+        "color14": "#59803D",
+        "color15": "#a8baab"
+    }
+}

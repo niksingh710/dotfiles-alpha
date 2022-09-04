@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/italy/mont_des_ranges_saint-colomban-des-villards.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#080F16",
+        "foreground": "#e9e6e2",
+        "cursor": "#e9e6e2"
+    },
+    "colors": {
+        "color0": "#080F16",
+        "color1": "#84857D",
+        "color2": "#A6A399",
+        "color3": "#C2BDB0",
+        "color4": "#CDC6BA",
+        "color5": "#BDC4D6",
+        "color6": "#D8D2C8",
+        "color7": "#e9e6e2",
+        "color8": "#a3a19e",
+        "color9": "#84857D",
+        "color10": "#A6A399",
+        "color11": "#C2BDB0",
+        "color12": "#CDC6BA",
+        "color13": "#BDC4D6",
+        "color14": "#D8D2C8",
+        "color15": "#e9e6e2"
+    }
+}

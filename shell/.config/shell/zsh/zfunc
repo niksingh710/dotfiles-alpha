@@ -1,0 +1,11 @@
+fcd-z(){
+    fcd
+    ls
+    zle reset-prompt
+}
+
+zle -N fcd-z fcd-z
+bindkey '^G' fcd-z
+
+bindkey '^ ' autosuggest-accept
+

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/unknown/stars_wall.png",
+    "alpha": "80",
+    "special": {
+        "background": "#1a1a1a",
+        "foreground": "#abbed9",
+        "cursor": "#abbed9"
+    },
+    "colors": {
+        "color0": "#1a1a1a",
+        "color1": "#3F6291",
+        "color2": "#596E8E",
+        "color3": "#466895",
+        "color4": "#4B74AA",
+        "color5": "#507BC1",
+        "color6": "#5F87B2",
+        "color7": "#abbed9",
+        "color8": "#778597",
+        "color9": "#3F6291",
+        "color10": "#596E8E",
+        "color11": "#466895",
+        "color12": "#4B74AA",
+        "color13": "#507BC1",
+        "color14": "#5F87B2",
+        "color15": "#abbed9"
+    }
+}

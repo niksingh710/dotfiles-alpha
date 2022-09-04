@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Paintings/watery.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0d121c",
+        "foreground": "#d1dee9",
+        "cursor": "#d1dee9"
+    },
+    "colors": {
+        "color0": "#0d121c",
+        "color1": "#7A93A6",
+        "color2": "#849AAB",
+        "color3": "#8EA5B7",
+        "color4": "#97AFC8",
+        "color5": "#A2BBD4",
+        "color6": "#ABC6DD",
+        "color7": "#d1dee9",
+        "color8": "#929ba3",
+        "color9": "#7A93A6",
+        "color10": "#849AAB",
+        "color11": "#8EA5B7",
+        "color12": "#97AFC8",
+        "color13": "#A2BBD4",
+        "color14": "#ABC6DD",
+        "color15": "#d1dee9"
+    }
+}

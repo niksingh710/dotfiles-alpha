@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/operating-system/linux-friends-4k.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0f131b",
+        "foreground": "#dfe1e3",
+        "cursor": "#dfe1e3"
+    },
+    "colors": {
+        "color0": "#0f131b",
+        "color1": "#9EA76C",
+        "color2": "#346895",
+        "color3": "#717C8A",
+        "color4": "#6582A7",
+        "color5": "#9CA3A2",
+        "color6": "#D2C6A2",
+        "color7": "#dfe1e3",
+        "color8": "#9c9d9e",
+        "color9": "#9EA76C",
+        "color10": "#346895",
+        "color11": "#717C8A",
+        "color12": "#6582A7",
+        "color13": "#9CA3A2",
+        "color14": "#D2C6A2",
+        "color15": "#dfe1e3"
+    }
+}

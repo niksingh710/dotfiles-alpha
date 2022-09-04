@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/daniel-sessler-529928.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#081E27",
+        "foreground": "#baacbb",
+        "cursor": "#baacbb"
+    },
+    "colors": {
+        "color0": "#081E27",
+        "color1": "#51424F",
+        "color2": "#624958",
+        "color3": "#985A58",
+        "color4": "#CA6750",
+        "color5": "#F5926D",
+        "color6": "#DAA378",
+        "color7": "#baacbb",
+        "color8": "#827882",
+        "color9": "#51424F",
+        "color10": "#624958",
+        "color11": "#985A58",
+        "color12": "#CA6750",
+        "color13": "#F5926D",
+        "color14": "#DAA378",
+        "color15": "#baacbb"
+    }
+}

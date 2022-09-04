@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/aleks-dahlberg-281176.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#121015",
+        "foreground": "#dedfe0",
+        "cursor": "#dedfe0"
+    },
+    "colors": {
+        "color0": "#121015",
+        "color1": "#948475",
+        "color2": "#747985",
+        "color3": "#9D9D9F",
+        "color4": "#D9C2A7",
+        "color5": "#B8BCC4",
+        "color6": "#BDC2C9",
+        "color7": "#dedfe0",
+        "color8": "#9b9c9c",
+        "color9": "#948475",
+        "color10": "#747985",
+        "color11": "#9D9D9F",
+        "color12": "#D9C2A7",
+        "color13": "#B8BCC4",
+        "color14": "#BDC2C9",
+        "color15": "#dedfe0"
+    }
+}

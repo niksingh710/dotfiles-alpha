@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/tanzania/glacier_kilimanjaro_hu_chen.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0F1419",
+        "foreground": "#c1d0dd",
+        "cursor": "#c1d0dd"
+    },
+    "colors": {
+        "color0": "#0F1419",
+        "color1": "#456177",
+        "color2": "#396587",
+        "color3": "#4E7592",
+        "color4": "#557E9F",
+        "color5": "#678DAB",
+        "color6": "#7BA2C2",
+        "color7": "#c1d0dd",
+        "color8": "#87919a",
+        "color9": "#456177",
+        "color10": "#396587",
+        "color11": "#4E7592",
+        "color12": "#557E9F",
+        "color13": "#678DAB",
+        "color14": "#7BA2C2",
+        "color15": "#c1d0dd"
+    }
+}

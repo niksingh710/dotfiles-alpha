@@ -1,0 +1,34 @@
+#!/bin/bash
+
+AUTOSTART_BINS=()
+
+get-autostart(){
+  while IFS= read -r -d '' file
+    do
+      AUTOSTART_BINS+=("$(grep -E '^Exec=*' < "$file" | sed 's/Exec=//g' | head -n 1)")
+    done < <(find "$HOME"/.config/autostart/*.desktop -type f -print0)
+}
+
+init-wait(){
+  hash waybar 2>/dev/null || return
+  while ! pgrep -x waybar &>/dev/null
+    do
+      sleep 5
+    done
+    autostart
+}
+
+autostart(){
+    IFS=$'\n'$'\r'
+    for i in "${AUTOSTART_BINS[@]}"
+      do
+        eval $i &>/dev/null &
+      done
+}
+
+main(){
+    get-autostart
+    init-wait
+}
+
+main "$@"

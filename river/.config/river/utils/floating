@@ -1,0 +1,24 @@
+#!/bin/bash
+
+[ -f $HOME/.config/river/env ] && . $HOME/.config/river/env
+
+# Same as xorg class in most cases xprop WM_CLASS
+arr=(
+    float
+    battop
+    feh
+    telegramdesktop
+    appimagekit_3a48058ef277d45ae2228089429c0259-Telegram_Desktop
+    pavucontrol
+    wev
+    org.kde.kdeconnect.daemon
+    wihotspot-gui
+  )
+
+[ ${#arr[@]} ] || exit
+riverctl float-filter-add title "popup title with spaces"
+
+for i in ${arr[@]}
+do
+    riverctl float-filter-add app-id $i
+done

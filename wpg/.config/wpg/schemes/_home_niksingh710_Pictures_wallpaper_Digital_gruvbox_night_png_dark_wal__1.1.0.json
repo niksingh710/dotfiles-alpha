@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/gruvbox_night.png",
+    "alpha": "80",
+    "special": {
+        "background": "#101212",
+        "foreground": "#c8c5b8",
+        "cursor": "#c8c5b8"
+    },
+    "colors": {
+        "color0": "#101212",
+        "color1": "#615E52",
+        "color2": "#6A6759",
+        "color3": "#787564",
+        "color4": "#817D6A",
+        "color5": "#928D77",
+        "color6": "#9E9880",
+        "color7": "#c8c5b8",
+        "color8": "#8c8980",
+        "color9": "#615E52",
+        "color10": "#6A6759",
+        "color11": "#787564",
+        "color12": "#817D6A",
+        "color13": "#928D77",
+        "color14": "#9E9880",
+        "color15": "#c8c5b8"
+    }
+}

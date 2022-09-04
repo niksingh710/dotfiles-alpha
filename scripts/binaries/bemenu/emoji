@@ -1,0 +1,14 @@
+#!/bin/bash
+
+hash bemoji 2>/dev/null || exit
+pgrep -x bemoji && exit
+
+# This to set bemenu colors
+background='#1a1a1a'
+color5='#268bd2'
+[ -f "$HOME/.cache/wal/colors.sh" ] && . $HOME/.cache/wal/colors.sh
+
+export BEMENU_ARGS=(-c -l 10 -i -W .3 -p '🔍' --tb "$background" --tf "$color5" --fb "$background" --nb "$background" --hb "$background" --hf "$color5" "$@" --fn "JetBrains Mono NF 12")
+
+export BEMOJI_PICKER_CMD="bemenu ${BEMENU_ARGS[@]}"
+bemoji -tc

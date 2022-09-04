@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/phone/soc_HK_Wallpaper_11162020_05.png",
+    "alpha": "80",
+    "special": {
+        "background": "#120f10",
+        "foreground": "#e0dfdf",
+        "cursor": "#e0dfdf"
+    },
+    "colors": {
+        "color0": "#120f10",
+        "color1": "#17BABC",
+        "color2": "#A59FA2",
+        "color3": "#E28EB3",
+        "color4": "#F79FC8",
+        "color5": "#D1ABCB",
+        "color6": "#FBA5CD",
+        "color7": "#e0dfdf",
+        "color8": "#9c9c9c",
+        "color9": "#17BABC",
+        "color10": "#A59FA2",
+        "color11": "#E28EB3",
+        "color12": "#F79FC8",
+        "color13": "#D1ABCB",
+        "color14": "#FBA5CD",
+        "color15": "#e0dfdf"
+    }
+}

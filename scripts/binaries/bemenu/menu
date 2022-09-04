@@ -1,0 +1,14 @@
+#!/bin/bash
+pgrep -x bemenu &>/dev/null && killall bemenu
+hash bemenu 2>/dev/null || exit
+# making sure all binaries are refreshed
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+# This to set bemenu colors
+background='#1a1a1a'
+color5='#268bd2'
+[ -f "$HOME/.cache/wal/colors.sh" ] && . $HOME/.cache/wal/colors.sh
+background=${background}aa
+
+export BEMENU_ARGS=(-i -p '[]=' --tb "$background" --tf "$color5" --fb "$background" --nb "$background" --hb "$background" --hf "$color5" "$@" --fn "JetBrains Mono NF 12")
+
+bemenu "${BEMENU_ARGS[@]}"

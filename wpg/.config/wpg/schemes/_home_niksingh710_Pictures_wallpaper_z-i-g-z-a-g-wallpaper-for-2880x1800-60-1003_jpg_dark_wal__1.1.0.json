@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/z-i-g-z-a-g-wallpaper-for-2880x1800-60-1003.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#090717",
+        "foreground": "#dabbd6",
+        "cursor": "#dabbd6"
+    },
+    "colors": {
+        "color0": "#090717",
+        "color1": "#5B3B84",
+        "color2": "#695B95",
+        "color3": "#984389",
+        "color4": "#9F65A1",
+        "color5": "#D072B4",
+        "color6": "#AC84B6",
+        "color7": "#dabbd6",
+        "color8": "#988295",
+        "color9": "#5B3B84",
+        "color10": "#695B95",
+        "color11": "#984389",
+        "color12": "#9F65A1",
+        "color13": "#D072B4",
+        "color14": "#AC84B6",
+        "color15": "#dabbd6"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/twilight_clouds_by_bisbiswas_decvknp.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#12121c",
+        "foreground": "#f1a89a",
+        "cursor": "#f1a89a"
+    },
+    "colors": {
+        "color0": "#12121c",
+        "color1": "#E95537",
+        "color2": "#8E4443",
+        "color3": "#AE4C44",
+        "color4": "#D25344",
+        "color5": "#F35445",
+        "color6": "#D76B44",
+        "color7": "#f1a89a",
+        "color8": "#a8756b",
+        "color9": "#E95537",
+        "color10": "#8E4443",
+        "color11": "#AE4C44",
+        "color12": "#D25344",
+        "color13": "#F35445",
+        "color14": "#D76B44",
+        "color15": "#f1a89a"
+    }
+}

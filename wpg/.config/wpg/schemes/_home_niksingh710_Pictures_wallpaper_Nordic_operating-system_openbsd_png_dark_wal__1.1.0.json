@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/operating-system/openbsd.png",
+    "alpha": "80",
+    "special": {
+        "background": "#11141b",
+        "foreground": "#c1d4db",
+        "cursor": "#c1d4db"
+    },
+    "colors": {
+        "color0": "#11141b",
+        "color1": "#5D7684",
+        "color2": "#707985",
+        "color3": "#758693",
+        "color4": "#799FAE",
+        "color5": "#7DB0C0",
+        "color6": "#8C9AA6",
+        "color7": "#c1d4db",
+        "color8": "#879499",
+        "color9": "#5D7684",
+        "color10": "#707985",
+        "color11": "#758693",
+        "color12": "#799FAE",
+        "color13": "#7DB0C0",
+        "color14": "#8C9AA6",
+        "color15": "#c1d4db"
+    }
+}

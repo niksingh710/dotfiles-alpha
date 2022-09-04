@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/away_in_silence_alena_aenami.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#051017",
+        "foreground": "#bdbac2",
+        "cursor": "#bdbac2"
+    },
+    "colors": {
+        "color0": "#051017",
+        "color1": "#6B778A",
+        "color2": "#867A8B",
+        "color3": "#AC7485",
+        "color4": "#DD7883",
+        "color5": "#2F8496",
+        "color6": "#7C8294",
+        "color7": "#bdbac2",
+        "color8": "#848287",
+        "color9": "#6B778A",
+        "color10": "#867A8B",
+        "color11": "#AC7485",
+        "color12": "#DD7883",
+        "color13": "#2F8496",
+        "color14": "#7C8294",
+        "color15": "#bdbac2"
+    }
+}

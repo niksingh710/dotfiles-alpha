@@ -1,0 +1,7 @@
+# Sourcing the system variables and shell variables so that PATH is being updated.
+[ -f $HOME/.config/sys/env ] && . $HOME/.config/sys/env
+[ -f $HOME/.config/shell/env ] && . $HOME/.config/shell/env
+[ -f $HOME/.config/shell/path ] && . $HOME/.config/shell/path
+[ -f $HOME/.config/shell/func ] && . $HOME/.config/shell/func
+[ -f $HOME/.cache/wal/colors.sh ] && . $HOME/.cache/wal/colors.sh
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+hash waybar 2>/dev/null || exit
+pgrep -x waybar &>/dev/null && killall waybar &>/dev/null
+waybar &>/dev/null &
+

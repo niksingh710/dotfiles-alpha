@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/monochrome.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#060606",
+        "foreground": "#dedede",
+        "cursor": "#dedede"
+    },
+    "colors": {
+        "color0": "#060606",
+        "color1": "#676767",
+        "color2": "#787878",
+        "color3": "#878787",
+        "color4": "#989898",
+        "color5": "#A8A8A8",
+        "color6": "#B7B7B7",
+        "color7": "#dedede",
+        "color8": "#9b9b9b",
+        "color9": "#676767",
+        "color10": "#787878",
+        "color11": "#878787",
+        "color12": "#989898",
+        "color13": "#A8A8A8",
+        "color14": "#B7B7B7",
+        "color15": "#dedede"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/HD/Neosaka.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0F0F07",
+        "foreground": "#c1c9c5",
+        "cursor": "#c1c9c5"
+    },
+    "colors": {
+        "color0": "#0F0F07",
+        "color1": "#3B4B4A",
+        "color2": "#55665A",
+        "color3": "#6B8B73",
+        "color4": "#7F8273",
+        "color5": "#6F9793",
+        "color6": "#6CBEC8",
+        "color7": "#c1c9c5",
+        "color8": "#878c89",
+        "color9": "#3B4B4A",
+        "color10": "#55665A",
+        "color11": "#6B8B73",
+        "color12": "#7F8273",
+        "color13": "#6F9793",
+        "color14": "#6CBEC8",
+        "color15": "#c1c9c5"
+    }
+}

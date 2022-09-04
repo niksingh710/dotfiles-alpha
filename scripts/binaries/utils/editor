@@ -1,0 +1,5 @@
+#!/bin/sh
+[ -f "$HOME/.config/shell/config" ] && . "$HOME/.config/shell/config"
+[ -f "$HOME"/.config/wpg/sequences ] && /usr/bin/cat "$HOME"/.config/wpg/sequences
+hash lvim 2>/dev/null && lvim "$@"
+

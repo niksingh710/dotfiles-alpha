@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Time shift launcher script for wayland 
+# Preserving variable with root execution.
+
+hash timeshift-launcher || exit
+sudo -E timeshift-launcher &>/dev/null &

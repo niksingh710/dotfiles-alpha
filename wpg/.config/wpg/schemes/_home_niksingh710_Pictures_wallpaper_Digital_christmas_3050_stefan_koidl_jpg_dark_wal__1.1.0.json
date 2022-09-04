@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/christmas_3050_stefan_koidl.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#141218",
+        "foreground": "#abc2d9",
+        "cursor": "#abc2d9"
+    },
+    "colors": {
+        "color0": "#141218",
+        "color1": "#445C88",
+        "color2": "#4A6794",
+        "color3": "#5377A8",
+        "color4": "#647AA0",
+        "color5": "#5982B5",
+        "color6": "#638CB9",
+        "color7": "#abc2d9",
+        "color8": "#778797",
+        "color9": "#445C88",
+        "color10": "#4A6794",
+        "color11": "#5377A8",
+        "color12": "#647AA0",
+        "color13": "#5982B5",
+        "color14": "#638CB9",
+        "color15": "#abc2d9"
+    }
+}

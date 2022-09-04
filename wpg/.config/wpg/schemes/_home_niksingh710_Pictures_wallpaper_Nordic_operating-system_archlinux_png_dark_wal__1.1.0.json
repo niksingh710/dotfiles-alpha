@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/operating-system/archlinux.png",
+    "alpha": "80",
+    "special": {
+        "background": "#1b1e25",
+        "foreground": "#bfd5d5",
+        "cursor": "#bfd5d5"
+    },
+    "colors": {
+        "color0": "#1b1e25",
+        "color1": "#6F8F92",
+        "color2": "#7A9FA0",
+        "color3": "#7DA3A4",
+        "color4": "#89B4B4",
+        "color5": "#8FBCBB",
+        "color6": "#8FBDBC",
+        "color7": "#bfd5d5",
+        "color8": "#859595",
+        "color9": "#6F8F92",
+        "color10": "#7A9FA0",
+        "color11": "#7DA3A4",
+        "color12": "#89B4B4",
+        "color13": "#8FBCBB",
+        "color14": "#8FBDBC",
+        "color15": "#bfd5d5"
+    }
+}

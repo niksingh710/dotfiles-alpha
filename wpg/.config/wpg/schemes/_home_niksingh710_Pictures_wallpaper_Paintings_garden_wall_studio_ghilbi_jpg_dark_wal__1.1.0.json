@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Paintings/garden_wall_studio_ghilbi.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0F2B2A",
+        "foreground": "#d0dfd8",
+        "cursor": "#d0dfd8"
+    },
+    "colors": {
+        "color0": "#0F2B2A",
+        "color1": "#95A566",
+        "color2": "#3AC597",
+        "color3": "#AAAF9F",
+        "color4": "#ACD2A6",
+        "color5": "#C8CBB5",
+        "color6": "#D9E6A9",
+        "color7": "#d0dfd8",
+        "color8": "#919c97",
+        "color9": "#95A566",
+        "color10": "#3AC597",
+        "color11": "#AAAF9F",
+        "color12": "#ACD2A6",
+        "color13": "#C8CBB5",
+        "color14": "#D9E6A9",
+        "color15": "#d0dfd8"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Widescreen/Death Star.png",
+    "alpha": "80",
+    "special": {
+        "background": "#040406",
+        "foreground": "#b4b8bc",
+        "cursor": "#b4b8bc"
+    },
+    "colors": {
+        "color0": "#040406",
+        "color1": "#494D56",
+        "color2": "#565A64",
+        "color3": "#5E626A",
+        "color4": "#686D75",
+        "color5": "#8E8971",
+        "color6": "#747A83",
+        "color7": "#b4b8bc",
+        "color8": "#7d8083",
+        "color9": "#494D56",
+        "color10": "#565A64",
+        "color11": "#5E626A",
+        "color12": "#686D75",
+        "color13": "#8E8971",
+        "color14": "#747A83",
+        "color15": "#b4b8bc"
+    }
+}

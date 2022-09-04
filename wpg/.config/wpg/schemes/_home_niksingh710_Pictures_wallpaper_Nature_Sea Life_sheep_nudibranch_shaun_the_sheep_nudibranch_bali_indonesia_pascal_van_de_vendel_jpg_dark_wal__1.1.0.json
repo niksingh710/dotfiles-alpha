@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Sea Life/sheep_nudibranch/shaun_the_sheep_nudibranch_bali_indonesia_pascal_van_de_vendel.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#1f1e16",
+        "foreground": "#d8d1a9",
+        "cursor": "#d8d1a9"
+    },
+    "colors": {
+        "color0": "#1f1e16",
+        "color1": "#8A7545",
+        "color2": "#768823",
+        "color3": "#79874F",
+        "color4": "#89932A",
+        "color5": "#8B8B4F",
+        "color6": "#989866",
+        "color7": "#d8d1a9",
+        "color8": "#979276",
+        "color9": "#8A7545",
+        "color10": "#768823",
+        "color11": "#79874F",
+        "color12": "#89932A",
+        "color13": "#8B8B4F",
+        "color14": "#989866",
+        "color15": "#d8d1a9"
+    }
+}

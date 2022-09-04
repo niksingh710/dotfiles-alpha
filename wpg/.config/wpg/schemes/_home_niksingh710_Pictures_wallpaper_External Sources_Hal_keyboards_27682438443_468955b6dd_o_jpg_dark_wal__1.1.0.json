@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/keyboards/27682438443_468955b6dd_o.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#151315",
+        "foreground": "#d2d5d7",
+        "cursor": "#d2d5d7"
+    },
+    "colors": {
+        "color0": "#151315",
+        "color1": "#52678A",
+        "color2": "#AE7787",
+        "color3": "#778B9E",
+        "color4": "#999EA0",
+        "color5": "#B3B3AD",
+        "color6": "#D2ABA5",
+        "color7": "#d2d5d7",
+        "color8": "#939596",
+        "color9": "#52678A",
+        "color10": "#AE7787",
+        "color11": "#778B9E",
+        "color12": "#999EA0",
+        "color13": "#B3B3AD",
+        "color14": "#D2ABA5",
+        "color15": "#d2d5d7"
+    }
+}

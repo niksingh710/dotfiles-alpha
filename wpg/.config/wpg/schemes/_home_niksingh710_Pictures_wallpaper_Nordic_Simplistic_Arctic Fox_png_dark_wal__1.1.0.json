@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/Simplistic/Arctic Fox.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0e1013",
+        "foreground": "#e2e5e9",
+        "cursor": "#e2e5e9"
+    },
+    "colors": {
+        "color0": "#0e1013",
+        "color1": "#6C7587",
+        "color2": "#78888C",
+        "color3": "#678EB8",
+        "color4": "#7899C3",
+        "color5": "#9CA691",
+        "color6": "#ADB5B6",
+        "color7": "#e2e5e9",
+        "color8": "#9ea0a3",
+        "color9": "#6C7587",
+        "color10": "#78888C",
+        "color11": "#678EB8",
+        "color12": "#7899C3",
+        "color13": "#9CA691",
+        "color14": "#ADB5B6",
+        "color15": "#e2e5e9"
+    }
+}

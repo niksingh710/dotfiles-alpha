@@ -1,0 +1,48 @@
+#!/bin/bash
+
+hash wf-recorder 2>/dev/null || exit
+hash slurp 2>/dev/null || exit
+
+if pgrep -x wf-recorder &>/dev/null;then
+  killall -q wf-recorder
+  exit
+fi
+
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+
+getargs(){
+    
+  audio=${RECORD_AUDIO:-"false"}
+  record_format=${RECORD_FORMAT:-$(date +"sr-%d-%b-%C_%H-%M-%S")}
+  record_path=${RECORD_PATH:-"$HOME/Videos/Recordings"}
+  [ -d $record_path ] || mkdir -p $record_path
+
+  FILE="$record_path/$record_format.mkv"
+}
+main(){
+    getargs "$@"
+    take_output
+}
+take_output(){
+    ARGS=(-f $FILE -o $(slurp -o -f "%o"))
+    [[ $audio == "true" ]] && ARGS+=(--audio)
+}
+
+start_record(){
+  notify "Rerun Same command to stop recording"
+  for i in {1..3}
+    do
+      ID=12332
+      [ -f /tmp/scrrecid ] && ID=$(cat /tmp/scrrecid)
+      notify "Starting recording in: $i will start after beep." -p -t 2000 -r "$ID" >/tmp/scrrecid
+      sleep 1
+    done
+    sleep 1
+    mpv /usr/share/sounds/freedesktop/stereo/complete.oga
+    wf-recorder ${ARGS[@]} &>/dev/null
+    [ -f $FILE ] && notify "Recorded file is saved at: $FILE" || notify "Err while doing recording"
+}
+
+main "$@" 
+start_record
+

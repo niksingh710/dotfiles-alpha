@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/sky.png",
+    "alpha": "80",
+    "special": {
+        "background": "#020D13",
+        "foreground": "#88e1e1",
+        "cursor": "#88e1e1"
+    },
+    "colors": {
+        "color0": "#020D13",
+        "color1": "#025965",
+        "color2": "#205E61",
+        "color3": "#036B73",
+        "color4": "#1325AE",
+        "color5": "#037B83",
+        "color6": "#069A9D",
+        "color7": "#88e1e1",
+        "color8": "#5f9d9d",
+        "color9": "#025965",
+        "color10": "#205E61",
+        "color11": "#036B73",
+        "color12": "#1325AE",
+        "color13": "#037B83",
+        "color14": "#069A9D",
+        "color15": "#88e1e1"
+    }
+}

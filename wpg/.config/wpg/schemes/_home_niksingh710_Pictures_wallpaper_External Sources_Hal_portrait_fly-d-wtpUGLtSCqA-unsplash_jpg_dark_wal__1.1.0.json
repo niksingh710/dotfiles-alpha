@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/External Sources/Hal/portrait/fly-d-wtpUGLtSCqA-unsplash.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#08080C",
+        "foreground": "#dbe5ee",
+        "cursor": "#dbe5ee"
+    },
+    "colors": {
+        "color0": "#08080C",
+        "color1": "#4D729B",
+        "color2": "#6B92BE",
+        "color3": "#B4BBA5",
+        "color4": "#90B4D6",
+        "color5": "#A6C5DC",
+        "color6": "#B4CFE6",
+        "color7": "#dbe5ee",
+        "color8": "#99a0a6",
+        "color9": "#4D729B",
+        "color10": "#6B92BE",
+        "color11": "#B4BBA5",
+        "color12": "#90B4D6",
+        "color13": "#A6C5DC",
+        "color14": "#B4CFE6",
+        "color15": "#dbe5ee"
+    }
+}

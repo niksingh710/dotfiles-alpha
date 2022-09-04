@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/galaxy-2560x1600.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0f0207",
+        "foreground": "#d5a5bd",
+        "cursor": "#d5a5bd"
+    },
+    "colors": {
+        "color0": "#0f0207",
+        "color1": "#6E2A51",
+        "color2": "#75495D",
+        "color3": "#8E375E",
+        "color4": "#A4466F",
+        "color5": "#DA5E66",
+        "color6": "#F48878",
+        "color7": "#d5a5bd",
+        "color8": "#957384",
+        "color9": "#6E2A51",
+        "color10": "#75495D",
+        "color11": "#8E375E",
+        "color12": "#A4466F",
+        "color13": "#DA5E66",
+        "color14": "#F48878",
+        "color15": "#d5a5bd"
+    }
+}

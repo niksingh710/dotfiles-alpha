@@ -1,0 +1,2 @@
+#!/bin/bash
+hash pywal-discord 2>/dev/null && pywal-discord &>/dev/null 

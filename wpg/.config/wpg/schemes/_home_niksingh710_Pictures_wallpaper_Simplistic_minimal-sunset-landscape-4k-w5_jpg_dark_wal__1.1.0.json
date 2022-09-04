@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Simplistic/minimal-sunset-landscape-4k-w5.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#150611",
+        "foreground": "#f0d283",
+        "cursor": "#f0d283"
+    },
+    "colors": {
+        "color0": "#150611",
+        "color1": "#5C2A48",
+        "color2": "#9C1E38",
+        "color3": "#E02539",
+        "color4": "#A1284A",
+        "color5": "#DA2D47",
+        "color6": "#D65642",
+        "color7": "#f0d283",
+        "color8": "#a8935b",
+        "color9": "#5C2A48",
+        "color10": "#9C1E38",
+        "color11": "#E02539",
+        "color12": "#A1284A",
+        "color13": "#DA2D47",
+        "color14": "#D65642",
+        "color15": "#f0d283"
+    }
+}

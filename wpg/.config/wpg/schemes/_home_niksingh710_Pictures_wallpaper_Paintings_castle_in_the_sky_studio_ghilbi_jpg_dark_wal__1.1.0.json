@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Paintings/castle_in_the_sky_studio_ghilbi.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0c1213",
+        "foreground": "#f0dcce",
+        "cursor": "#f0dcce"
+    },
+    "colors": {
+        "color0": "#0c1213",
+        "color1": "#DF9D6C",
+        "color2": "#C2708C",
+        "color3": "#5E938D",
+        "color4": "#5DA5A4",
+        "color5": "#A3ACA3",
+        "color6": "#E8AF9E",
+        "color7": "#f0dcce",
+        "color8": "#a89a90",
+        "color9": "#DF9D6C",
+        "color10": "#C2708C",
+        "color11": "#5E938D",
+        "color12": "#5DA5A4",
+        "color13": "#A3ACA3",
+        "color14": "#E8AF9E",
+        "color15": "#f0dcce"
+    }
+}

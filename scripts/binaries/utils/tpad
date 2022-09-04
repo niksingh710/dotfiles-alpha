@@ -1,0 +1,24 @@
+#!/bin/bash
+# Handles trackpad events only on river.
+[ ! $# -eq 1 ] && exit
+
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+
+TOUCHPAD=${TOUCHPAD:-"pointer-1267-91-Elan_Touchpad"}
+ID=12332
+[ -f /tmp/tpadid ] && ID=`/usr/bin/cat /tmp/tpadid`
+on(){
+  riverctl input $TOUCHPAD events enabled
+  notify-send "ﳶ Enabled 🖲️" -p -r $ID -t 2400 > /tmp/tpadid
+  exit
+}
+
+off(){
+  riverctl input $TOUCHPAD events disabled
+  notify-send "ﳶ Disabled 🖲️" -p -r $ID -t 2400 > /tmp/tpadid
+  exit
+}
+
+
+[ $1 = "off" ] && off
+[ $1 = "on" ] && on

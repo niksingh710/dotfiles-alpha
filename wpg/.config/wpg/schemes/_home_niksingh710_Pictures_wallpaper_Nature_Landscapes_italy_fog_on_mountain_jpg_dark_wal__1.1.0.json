@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/italy/fog_on_mountain.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#131216",
+        "foreground": "#b5b8b8",
+        "cursor": "#b5b8b8"
+    },
+    "colors": {
+        "color0": "#131216",
+        "color1": "#606458",
+        "color2": "#5B5E61",
+        "color3": "#5E6263",
+        "color4": "#6A6F6F",
+        "color5": "#7C817C",
+        "color6": "#81847C",
+        "color7": "#b5b8b8",
+        "color8": "#7e8080",
+        "color9": "#606458",
+        "color10": "#5B5E61",
+        "color11": "#5E6263",
+        "color12": "#6A6F6F",
+        "color13": "#7C817C",
+        "color14": "#81847C",
+        "color15": "#b5b8b8"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Plants/leaves.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#091113",
+        "foreground": "#aec2bb",
+        "cursor": "#aec2bb"
+    },
+    "colors": {
+        "color0": "#091113",
+        "color1": "#396752",
+        "color2": "#3D6962",
+        "color3": "#44725A",
+        "color4": "#4B6460",
+        "color5": "#4A7668",
+        "color6": "#588772",
+        "color7": "#aec2bb",
+        "color8": "#798782",
+        "color9": "#396752",
+        "color10": "#3D6962",
+        "color11": "#44725A",
+        "color12": "#4B6460",
+        "color13": "#4A7668",
+        "color14": "#588772",
+        "color15": "#aec2bb"
+    }
+}

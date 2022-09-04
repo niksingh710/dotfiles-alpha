@@ -1,0 +1,2 @@
+#!/bin/sh
+hash pfetch 2>/dev/null && pfetch || echo "pfetch not installed"

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/nebula.png",
+    "alpha": "80",
+    "special": {
+        "background": "#0B0A13",
+        "foreground": "#c7c6dc",
+        "cursor": "#c7c6dc"
+    },
+    "colors": {
+        "color0": "#0B0A13",
+        "color1": "#423D72",
+        "color2": "#46445A",
+        "color3": "#47427B",
+        "color4": "#514C8D",
+        "color5": "#6862A9",
+        "color6": "#827DB9",
+        "color7": "#c7c6dc",
+        "color8": "#8b8a9a",
+        "color9": "#423D72",
+        "color10": "#46445A",
+        "color11": "#47427B",
+        "color12": "#514C8D",
+        "color13": "#6862A9",
+        "color14": "#827DB9",
+        "color15": "#c7c6dc"
+    }
+}

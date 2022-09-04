@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Plants/ferns_lost_creek_falls_and_cava_sparta_usa.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#10120f",
+        "foreground": "#b6bfb7",
+        "cursor": "#b6bfb7"
+    },
+    "colors": {
+        "color0": "#10120f",
+        "color1": "#3C6457",
+        "color2": "#455846",
+        "color3": "#546955",
+        "color4": "#5E7461",
+        "color5": "#657966",
+        "color6": "#738774",
+        "color7": "#b6bfb7",
+        "color8": "#7f8580",
+        "color9": "#3C6457",
+        "color10": "#455846",
+        "color11": "#546955",
+        "color12": "#5E7461",
+        "color13": "#657966",
+        "color14": "#738774",
+        "color15": "#b6bfb7"
+    }
+}

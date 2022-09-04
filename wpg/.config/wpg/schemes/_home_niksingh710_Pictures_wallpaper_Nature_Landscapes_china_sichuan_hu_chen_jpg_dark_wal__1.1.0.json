@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/china/sichuan_hu_chen.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0D0F11",
+        "foreground": "#abc7de",
+        "cursor": "#abc7de"
+    },
+    "colors": {
+        "color0": "#0D0F11",
+        "color1": "#4A5250",
+        "color2": "#54666E",
+        "color3": "#877F73",
+        "color4": "#2D649C",
+        "color5": "#56748E",
+        "color6": "#6B8DA8",
+        "color7": "#abc7de",
+        "color8": "#778b9b",
+        "color9": "#4A5250",
+        "color10": "#54666E",
+        "color11": "#877F73",
+        "color12": "#2D649C",
+        "color13": "#56748E",
+        "color14": "#6B8DA8",
+        "color15": "#abc7de"
+    }
+}

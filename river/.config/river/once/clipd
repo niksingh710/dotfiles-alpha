@@ -1,0 +1,8 @@
+#!/bin/bash
+
+hash wl-paste 2>/dev/null || exit 1
+hash cliphist 2>/dev/null || exit 1
+
+pgrep -x wl-paste &>/dev/null && exit 1
+
+wl-paste --watch cliphist store &

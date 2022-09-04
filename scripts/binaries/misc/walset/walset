@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# This script will set system wallpaper and update the colors of other applications using wal and wpgtk.
+LOC=`realpath $(dirname ${BASH_SOURCE:-$0})`
+WALLPATH="${WALLPATH:-"$HOME/Pictures/wallpaper"}"
+ALPHA="${ALPHA:-80}"
+
+get-wallpaper(){
+  IFS=$'\n'$'\r'
+  arr=($(find $WALLPATH/ -type f \( -iname \*.jpg -o -iname \*.png -o -iname \*.jpeg \)))
+  len=${#arr[@]}
+  imgpath=${arr[$(echo $(( $RANDOM % $len )))]}
+  echo $imgpath
+}
+
+wallpaper=""
+
+if [ $# -eq 1 ]; then
+  [ $1 = "-n" ] && exit
+  if file "$1" | grep -qE 'image|bitmap';then
+    wallpaper=`realpath $1`
+  fi
+fi
+
+if [ -z $wallpaper ];then
+  wallpaper=$(get-wallpaper)
+fi
+
+
+# setting the wallpaper
+pgrep -x wbg &>/dev/null && killall wbg &>/dev/null
+wbg "$wallpaper" &>/dev/null &
+
+# generating color scheme using wal cli as it is faster.
+pgrep -x wal &>/dev/null && killall wal &>/dev/null
+wal -i "$wallpaper" -n -a $ALPHA -o "$LOC/wal.d/init" &>/dev/null &
+
+# running waybar after successful running of wal (This will throw error if scheme is not ready by wal waybar won't run)
+
+# using wpg to set gtk theme in parallel to other operations
+pgrep -x wpg &>/dev/null && killall wpg &>/dev/null
+wpg -s "$wallpaper" -n --alpha $ALPHA &>/dev/null && notify-send "Current wallpaper" -i "$wallpaper" -t 5000 &>/dev/null &
+

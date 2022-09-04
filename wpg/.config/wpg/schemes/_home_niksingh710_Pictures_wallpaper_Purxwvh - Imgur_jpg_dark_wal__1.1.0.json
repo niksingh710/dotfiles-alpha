@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Purxwvh - Imgur.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#040913",
+        "foreground": "#8aced3",
+        "cursor": "#8aced3"
+    },
+    "colors": {
+        "color0": "#040913",
+        "color1": "#AA1872",
+        "color2": "#079374",
+        "color3": "#106295",
+        "color4": "#4457A2",
+        "color5": "#D71F92",
+        "color6": "#AB4593",
+        "color7": "#8aced3",
+        "color8": "#609093",
+        "color9": "#AA1872",
+        "color10": "#079374",
+        "color11": "#106295",
+        "color12": "#4457A2",
+        "color13": "#D71F92",
+        "color14": "#AB4593",
+        "color15": "#8aced3"
+    }
+}

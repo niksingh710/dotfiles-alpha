@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/B1lMORS - Imgur.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#090D11",
+        "foreground": "#ede0a8",
+        "cursor": "#ede0a8"
+    },
+    "colors": {
+        "color0": "#090D11",
+        "color1": "#9A6132",
+        "color2": "#AB7445",
+        "color3": "#7C8360",
+        "color4": "#D48E3D",
+        "color5": "#A99B69",
+        "color6": "#DAA758",
+        "color7": "#ede0a8",
+        "color8": "#a59c75",
+        "color9": "#9A6132",
+        "color10": "#AB7445",
+        "color11": "#7C8360",
+        "color12": "#D48E3D",
+        "color13": "#A99B69",
+        "color14": "#DAA758",
+        "color15": "#ede0a8"
+    }
+}

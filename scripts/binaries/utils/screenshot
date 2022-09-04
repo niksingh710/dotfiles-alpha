@@ -1,0 +1,71 @@
+#!/bin/bash
+
+[ -f $HOME/.config/sys/all-env ] && . $HOME/.config/sys/all-env
+
+getargs(){
+
+  screenshot_type=${SCREENSHOT_TYPE:-"select"}
+  screenshot_format=${SCREENSHOT_FORMAT:-$(date +"ss-%d-%b-%C_%H-%M-%S")}
+  screenshot_path=${SCREENSHOT_PATH:-"$HOME/Pictures/Screenshots"}
+  [ -d $screenshot_path ] || mkdir -p $screenshot_path
+
+  FILE="$screenshot_path/$screenshot_format.png"
+
+
+  if [ $# -eq 1 ];then
+      [[ $1 == "-s" ]] && screenshot_type="select";
+      [[ $1 == "-w" ]] && screenshot_type="window";
+      [[ $1 == "-fo" ]] && screenshot_type="foutput";
+      [[ $1 == "-ao" ]] && screenshot_type="aoutput";
+      [[ $1 == "-mo" ]] && screenshot_type="moutput";
+      [[ $1 == "-so" ]] && screenshot_type="soutput";
+  fi
+}
+main(){
+    getargs "$@"
+
+    [[ $screenshot_type == "select" ]] && take_select;
+    [[ $screenshot_type == "window" ]] && take_window;
+    [[ $screenshot_type == "foutput" ]] && take_foutput;
+    [[ $screenshot_type == "aoutput" ]] && take_aoutput;
+    [[ $screenshot_type == "moutput" ]] && take_moutput;
+    [[ $screenshot_type == "soutput" ]] && take_soutput;
+
+    if [ -f $FILE ];then
+      cat $FILE | wl-copy
+      notify --action=Edit=Edit -i "$FILE" "Screenshot:" "Copied to clipboard"
+    fi
+     
+}
+
+take_select(){
+    grim -l 0 -c -g "$(slurp)" $FILE &>/dev/null
+}
+
+take_window(){
+    notify "Getting a window specific data in river is not yet possible"
+}
+
+take_foutput(){
+    notify "Getting focused output specific data in river is not yet possible"
+}
+
+take_aoutput(){
+    notify "WIP"
+}
+
+take_moutput(){
+    grim -l 0 -c -g "0,0 1920x1080" $FILE &>/dev/null 
+}
+
+take_soutput(){
+    grim -l 0 -c -g "$(slurp -o)" $FILE &>/dev/null
+}
+
+
+hash grim 2>/dev/null || notify "grim not installed"
+hash slurp 2>/dev/null || notify "slurp not installed"
+hash wl-copy 2>/dev/null || notify "wl-clipboard not installed"
+main "$@"
+
+

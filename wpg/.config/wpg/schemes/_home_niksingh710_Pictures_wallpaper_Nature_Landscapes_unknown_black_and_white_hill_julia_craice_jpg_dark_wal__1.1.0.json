@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/unknown/black_and_white_hill_julia_craice.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0E0E0E",
+        "foreground": "#ebebeb",
+        "cursor": "#ebebeb"
+    },
+    "colors": {
+        "color0": "#0E0E0E",
+        "color1": "#A7A7A7",
+        "color2": "#C8C8C8",
+        "color3": "#D3D3D3",
+        "color4": "#DADADA",
+        "color5": "#DDDDDD",
+        "color6": "#E2E2E2",
+        "color7": "#ebebeb",
+        "color8": "#a4a4a4",
+        "color9": "#A7A7A7",
+        "color10": "#C8C8C8",
+        "color11": "#D3D3D3",
+        "color12": "#DADADA",
+        "color13": "#DDDDDD",
+        "color14": "#E2E2E2",
+        "color15": "#ebebeb"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "languageserver": {
+    "sourcery": {
+      "command": "sourcery",
+      "args": [
+        "lsp"
+      ],
+      "filetypes": [
+        "python"
+      ],
+      "initializationOptions": {
+        "token": "user_4idsLYDL1VkUpBdwDe8MgCvxT2a_113Gq1HLOdrDhF1mS03W5ghOeCSKCps",
+        "extension_version": "coc.vim",
+        "editor_version": "vim"
+      },
+      "settings": {
+        "sourcery": {
+          "metricsEnabled": true
+        }
+      }
+    }
+  },
+  "codelens.enable": true,
+  "java.implementation.codelens": true
+}

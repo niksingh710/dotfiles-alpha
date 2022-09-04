@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Simplistic/mountains-minimalism-16.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#121f3b",
+        "foreground": "#e4dce9",
+        "cursor": "#e4dce9"
+    },
+    "colors": {
+        "color0": "#121f3b",
+        "color1": "#8E86B9",
+        "color2": "#D59AB9",
+        "color3": "#ACA6D2",
+        "color4": "#D3B9DA",
+        "color5": "#D7B8D9",
+        "color6": "#EEC1DA",
+        "color7": "#e4dce9",
+        "color8": "#9f9aa3",
+        "color9": "#8E86B9",
+        "color10": "#D59AB9",
+        "color11": "#ACA6D2",
+        "color12": "#D3B9DA",
+        "color13": "#D7B8D9",
+        "color14": "#EEC1DA",
+        "color15": "#e4dce9"
+    }
+}

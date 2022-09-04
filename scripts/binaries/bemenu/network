@@ -1,0 +1,11 @@
+#!/bin/bash
+hash networkmanager_dmenu 2>/dev/null || exit
+pgrep -x networkmanager_dmenu && exit
+# This to set bemenu colors
+background='#1a1a1a'
+color5='#268bd2'
+[ -f "$HOME/.cache/wal/colors.sh" ] && . $HOME/.cache/wal/colors.sh
+
+export BEMENU_ARGS=(-c -l 50 -i -W .4 -p '🪐' --tb "$background" --tf "$color5" --fb "$background" --nb "$background" --hb "$background" --hf "$color5" "$@" --fn "JetBrains Mono NF 12")
+
+bemenu ${BEMENU_ARGS[@]}

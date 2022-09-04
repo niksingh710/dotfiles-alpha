@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/reckless.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c0f",
+        "foreground": "#a7cded",
+        "cursor": "#a7cded"
+    },
+    "colors": {
+        "color0": "#0a0c0f",
+        "color1": "#616670",
+        "color2": "#3C6283",
+        "color3": "#53708C",
+        "color4": "#797E8A",
+        "color5": "#7C818D",
+        "color6": "#708CA7",
+        "color7": "#a7cded",
+        "color8": "#748fa5",
+        "color9": "#616670",
+        "color10": "#3C6283",
+        "color11": "#53708C",
+        "color12": "#797E8A",
+        "color13": "#7C818D",
+        "color14": "#708CA7",
+        "color15": "#a7cded"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nordic/HD/MountainRange.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0D262D",
+        "foreground": "#d5d7da",
+        "cursor": "#d5d7da"
+    },
+    "colors": {
+        "color0": "#0D262D",
+        "color1": "#998C8C",
+        "color2": "#879BA7",
+        "color3": "#94A6B1",
+        "color4": "#A7B1B9",
+        "color5": "#D8B9A5",
+        "color6": "#B4BBC3",
+        "color7": "#d5d7da",
+        "color8": "#959698",
+        "color9": "#998C8C",
+        "color10": "#879BA7",
+        "color11": "#94A6B1",
+        "color12": "#A7B1B9",
+        "color13": "#D8B9A5",
+        "color14": "#B4BBC3",
+        "color15": "#d5d7da"
+    }
+}

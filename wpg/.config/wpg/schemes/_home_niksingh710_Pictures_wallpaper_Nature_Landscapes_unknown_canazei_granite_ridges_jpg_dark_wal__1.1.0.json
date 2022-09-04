@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Nature/Landscapes/unknown/canazei_granite_ridges.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#17110f",
+        "foreground": "#dadbdc",
+        "cursor": "#dadbdc"
+    },
+    "colors": {
+        "color0": "#17110f",
+        "color1": "#7D8182",
+        "color2": "#9F9B96",
+        "color3": "#B2B5B7",
+        "color4": "#C3BAB2",
+        "color5": "#B8BDC1",
+        "color6": "#BBC3C8",
+        "color7": "#dadbdc",
+        "color8": "#98999a",
+        "color9": "#7D8182",
+        "color10": "#9F9B96",
+        "color11": "#B2B5B7",
+        "color12": "#C3BAB2",
+        "color13": "#B8BDC1",
+        "color14": "#BBC3C8",
+        "color15": "#dadbdc"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Digital/tower.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#0e0f1b",
+        "foreground": "#e2cac2",
+        "cursor": "#e2cac2"
+    },
+    "colors": {
+        "color0": "#0e0f1b",
+        "color1": "#545C75",
+        "color2": "#376A87",
+        "color3": "#626E89",
+        "color4": "#897A89",
+        "color5": "#878485",
+        "color6": "#A48E96",
+        "color7": "#e2cac2",
+        "color8": "#9e8d87",
+        "color9": "#545C75",
+        "color10": "#376A87",
+        "color11": "#626E89",
+        "color12": "#897A89",
+        "color13": "#878485",
+        "color14": "#A48E96",
+        "color15": "#e2cac2"
+    }
+}

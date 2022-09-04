@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# This script is directly dependedend of `setwal` script as it just cat the file `/tmp/currwal`
+# Y script not a fn as then i can use it in other programs like wal or wpg to get the wal paper and set colors.
+
+if [ ! -f /tmp/currwal ];then
+ echo -e "Unable to fetch curr wal\nMake sure wallpaper is set by setwal"
+ exit
+fi
+
+wallpaper=`/usr/bin/cat /tmp/currwal`
+
+show-wal(){
+    if [ $# -eq 1 ];then
+      if [ $1 = "-c" ];then
+        hash wl-copy 2>/dev/null && echo $wallpaper | wl-copy 
+        echo $wallpaper
+        exit
+      fi
+    fi
+    hash feh 2>/dev/null && feh -F $wallpaper || echo $wallpaper
+}
+
+show-wal $@

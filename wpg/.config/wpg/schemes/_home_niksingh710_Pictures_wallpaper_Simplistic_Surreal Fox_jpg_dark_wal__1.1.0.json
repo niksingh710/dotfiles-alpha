@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/Simplistic/Surreal Fox.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#090B3B",
+        "foreground": "#c9ecdb",
+        "cursor": "#c9ecdb"
+    },
+    "colors": {
+        "color0": "#090B3B",
+        "color1": "#386188",
+        "color2": "#4C7395",
+        "color3": "#5F9DA8",
+        "color4": "#74CDB5",
+        "color5": "#91AEA8",
+        "color6": "#9ADEAF",
+        "color7": "#c9ecdb",
+        "color8": "#8ca599",
+        "color9": "#386188",
+        "color10": "#4C7395",
+        "color11": "#5F9DA8",
+        "color12": "#74CDB5",
+        "color13": "#91AEA8",
+        "color14": "#9ADEAF",
+        "color15": "#c9ecdb"
+    }
+}

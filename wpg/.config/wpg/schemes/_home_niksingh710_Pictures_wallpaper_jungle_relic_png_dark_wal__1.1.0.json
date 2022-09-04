@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/jungle_relic.png",
+    "alpha": "80",
+    "special": {
+        "background": "#090e04",
+        "foreground": "#ddecd2",
+        "cursor": "#ddecd2"
+    },
+    "colors": {
+        "color0": "#090e04",
+        "color1": "#50764E",
+        "color2": "#4D8737",
+        "color3": "#6A9362",
+        "color4": "#87AC76",
+        "color5": "#7AB987",
+        "color6": "#B2D1A0",
+        "color7": "#ddecd2",
+        "color8": "#9aa593",
+        "color9": "#50764E",
+        "color10": "#4D8737",
+        "color11": "#6A9362",
+        "color12": "#87AC76",
+        "color13": "#7AB987",
+        "color14": "#B2D1A0",
+        "color15": "#ddecd2"
+    }
+}

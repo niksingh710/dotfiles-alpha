@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/niksingh710/Pictures/wallpaper/random/chasing-rainbows-wallpaper-for-1920x1080-63-789.jpg",
+    "alpha": "80",
+    "special": {
+        "background": "#210a13",
+        "foreground": "#a9c0c4",
+        "cursor": "#a9c0c4"
+    },
+    "colors": {
+        "color0": "#210a13",
+        "color1": "#966A4B",
+        "color2": "#738874",
+        "color3": "#BC843C",
+        "color4": "#A39461",
+        "color5": "#2F5D8E",
+        "color6": "#487793",
+        "color7": "#a9c0c4",
+        "color8": "#768689",
+        "color9": "#966A4B",
+        "color10": "#738874",
+        "color11": "#BC843C",
+        "color12": "#A39461",
+        "color13": "#2F5D8E",
+        "color14": "#487793",
+        "color15": "#a9c0c4"
+    }
+}

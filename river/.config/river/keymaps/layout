@@ -1,0 +1,31 @@
+#!/bin/bash
+
+[ -f "$HOME"/.config/sys/all-env ] && . "$HOME"/.config/sys/all-env
+
+# Super+Space to toggle float
+riverctl map normal Super+Shift F toggle-float
+
+# Super+F to toggle fullscreen
+riverctl map normal Super F toggle-fullscreen
+
+# temp sol for monocle
+riverctl map normal Super M spawn "$HOME/binaries/bin/monocle-river"
+
+# Stacktile
+
+# Super+{Up,Right,Down,Left} to change layout orientation
+riverctl map normal Super Up    send-layout-cmd stacktile "primary_position top"
+riverctl map normal Super Right send-layout-cmd stacktile "primary_position right"
+riverctl map normal Super Down  send-layout-cmd stacktile "primary_position bottom"
+riverctl map normal Super Left  send-layout-cmd stacktile "primary_position left"
+
+# Super+H and Super+L to decrease/increase the main ratio of rivertile(1)
+riverctl map normal Super+Control H send-layout-cmd stacktile "primary_ratio -0.05"
+riverctl map normal Super+Control L send-layout-cmd stacktile "primary_ratio +0.05"
+riverctl map normal Super+Control J send-layout-cmd stacktile "secondary_ratio +0.05"
+riverctl map normal Super+Control K send-layout-cmd stacktile "secondary_ratio -0.05"
+
+riverctl map normal Super+Shift H send-layout-cmd stacktile "primary_count +1"
+riverctl map normal Super+Shift L send-layout-cmd stacktile "primary_count -1"
+
+riverctl map normal Super L send-layout-cmd stacktile "remainder_sublayout stack,dwindle,full"
