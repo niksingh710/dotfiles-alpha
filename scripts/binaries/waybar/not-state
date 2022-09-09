@@ -1,0 +1,22 @@
+#!/bin/bash
+
+command="$(makoctl mode)"
+if [ $# -eq 1 ];then
+  if [[ $command == *"do-not-disturb"* ]];then
+    makoctl mode -r do-not-disturb
+    exit
+  fi 
+  makoctl mode -a do-not-disturb
+  exit
+fi
+
+state="default "
+tooltip="Normal Mode"
+if [[ $command == *"do-not-disturb"* ]];then
+  state="dnd "
+  tooltip="Do Not Disturb Mode"
+fi
+
+cat << EOF
+{"text":"$state","tooltip":"$tooltip"}
+EOF
