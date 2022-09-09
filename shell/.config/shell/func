@@ -79,6 +79,16 @@ sync(){
   $HOME/binaries/waybar/waybar-arch-checkupdate -n > /tmp/waybarup   
 }
 
+clean(){
+  pkmgr="sudo pacman"
+  hash paru 2>/dev/null && pkmgr=paru
+  toclean=()
+  toclean+=$($pkmgr -Qtdq) 
+  [[ ${#toclean} == 0 ]] && return 
+  $pkmgr -Rns $toclean
+  clean
+} 
+
 # System
 update(){
   pkmgr="sudo pacman"

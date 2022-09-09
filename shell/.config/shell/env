@@ -1,10 +1,3 @@
-export PNPM_HOME="$HOME/.local/share/pnpm"
-export EDITOR=$VISUAL
-export BAT_THEME="TwoDark"
-export PNPM_HOME="$HOME/.local/share/pnpm"
-export HISTFILE="$HOME/.shellhist"
-export ZVM_VI_EDITOR=$VISUAL
-export GIT_EDITOR=$VISUAL
 
 # setting editor
 if hash vim 2>/dev/null;then
@@ -17,6 +10,12 @@ if hash vim 2>/dev/null;then
   fi
 fi
 
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export EDITOR=$VISUAL
+export BAT_THEME="TwoDark"
+export HISTFILE="$HOME/.shellhist"
+export ZVM_VI_EDITOR=$VISUAL
+export GIT_EDITOR=$VISUAL
 
 #FZF
 export FZF_CTRL_T_COMMAND="find ./ -type f"
