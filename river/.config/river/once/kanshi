@@ -1,0 +1,4 @@
+#!/bin/bash
+
+hash kanshi 2>/dev/null && kanshi &
+
