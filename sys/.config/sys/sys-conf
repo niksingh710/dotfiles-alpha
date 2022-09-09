@@ -1,0 +1,3 @@
+# This is a config file to control all variables in system
+# bash variables (relaod river to make them take effect)
+export LOCK_TIME=180
