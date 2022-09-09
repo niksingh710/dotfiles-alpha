@@ -5,7 +5,7 @@
     "spacing": 4,
     "modules-left": [],
     "modules-center": ["river/tags"],
-    "modules-right": ["custom/weather","custom/update","custom/uptimed","custom/recorder","custom/vpn","custom/hotspot"],
+    "modules-right": ["custom/weather","custom/update","custom/uptimed","custom/recorder","custom/vpn","custom/hotspot","custom/notification"],
     "custom/weather": {
         "format": "{}",
         "tooltip": true,
@@ -13,6 +13,14 @@
         "exec": "$HOME/binaries/waybar/waybar-wttr",
         "return-type": "json"
     },
+    "custom/notification":{
+        "format":" {} ",
+        "on-click":"$HOME/binaries/waybar/not-state -t",
+        "exec":"$HOME/binaries/waybar/not-state",
+        "interval":1,
+        "return-type":"json",
+        "exec-if":"test -e $HOME/binaries/waybar/not-state",
+      },
     "custom/hotspot":{
         "format":"  ",
         "exec": "echo '{\"class\": \"connected\"}'",
